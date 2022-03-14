@@ -172,8 +172,13 @@ a {
 }
 .hero-blog-cards-1 {
   position: relative;
+  display: inline-block;
 }
 .hero-blog-cards-2 {
+  width: 573px;
+  height: 540px;
+  background-image: url("../img/hero-card-3.jpg");
+
 }
 .services-card {
 }
@@ -224,6 +229,14 @@ a {
 }
 
 .hero-card-descr {
+  width: 299px;
+  height: 178px;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 40px;
+  display: inline-block;
+}
+.hero-card-descr-2 {
   width: 299px;
   height: 178px;
   position: absolute;
