@@ -43,27 +43,30 @@ a {
 .contacts {
 }
 .header-logo {
+  width: 261px;
+  height: 54px;
   margin-right: 40px;
-  margin-bottom: -20px;
+  /*margin-bottom: -20px;*/
+  display: inline-block;
 }
 .contacts-item-link {
-  color: #666666
+  color: #666666;
+  /*margin-bottom: 40px;*/
+  display: inline-block;
+  
 }
 .logo-header-cab {
-  width: 24px;
-  height: 24px;
-  margin-bottom: -5px;
 }
-.btn.header-btn {
+.header-btn {
   height: 24px;
   width: 155px;
   border: none;
   background: none;
   color: #CC9933;
+  display: inline-block;
   margin-left: 550px;
 }
-.header-btn span {
-}
+
 .header-nav {
   background-color: #FFFFFF;
   border-radius: 15px;
