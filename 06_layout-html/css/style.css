@@ -86,7 +86,9 @@ a {
   display: flex;
   width: 1170px;
   height: 70px;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
 }
 .btn {
   padding: 13px 20px;
@@ -95,8 +97,16 @@ a {
   border-radius: 10px;
   color: #CC9933
 }
+
+.btn-answerback {
+  margin-left: 40px;
+  margin-right: 45px;
+}
+
+
 .header-list {
-  
+  margin-left: 0;
+  padding-left: 0;
 }
 .hero-container {
 }
@@ -123,10 +133,21 @@ a {
 .header-list-item {
   list-style-type: none;
   margin-left: 45px;
-  margin-top: 27px;
-  display: inline-block;
   color: #666666;
+  display: inline-block;
 }
+.header-list-item:last-child {
+  list-style-type: none;
+  margin-left: 45px;
+  color: #666666;
+  display: inline-block;
+  margin-right: 56px;
+}
+
+.rectangle-nav {
+  margin-right: 56px;
+}
+
 .section-title.hero-title {
 }
 .hero-cards {
