@@ -73,17 +73,26 @@ a {
   color: #CC9933;
   display: inline-block;
   margin-left: 550px;
+  margin-top: 20px;
 }
 
 .header-btn span {
-  margin-bottom: 50px;
+  /*padding-bottom: 50px;*/
 }
 
 .header-nav {
   background-color: #FFFFFF;
   border-radius: 15px;
+  display: flex;
+  width: 1170px;
+  height: 70px;
 }
 .btn {
+  padding: 13px 20px;
+  height: 42px;
+  border: 1px solid #CC9933;
+  border-radius: 10px;
+  color: #CC9933
 }
 .header-list {
   
@@ -115,6 +124,7 @@ a {
   margin-left: 45px;
   margin-top: 27px;
   display: inline-block;
+  color: #666666;
 }
 .section-title.hero-title {
 }
@@ -135,7 +145,7 @@ a {
 .allocation-cards-blog-3 {
 }
 .header-link {
-  
+  color: inherit;
 }
 .hero-blog-cards-1 {
 }
