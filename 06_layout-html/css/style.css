@@ -1,3 +1,9 @@
+body{
+  background-color:#F1F1F1;
+}
+a {
+  text-decoration: none;
+}
 #hero {
 
 }
@@ -20,8 +26,7 @@
 .footer {
 }
 .container {
-  margin-top: 30px;
-  margin-left: 375px;
+  margin: 30px 375px;
 }
 .hero {
 }
@@ -39,23 +44,34 @@
 }
 .header-logo {
   margin-right: 40px;
-  margin-bottom: 30px;
+  margin-bottom: -20px;
 }
 .contacts-item-link {
-  /*margin-top: 47px;*/
-  margin-bottom: 47px;
   color: #666666
 }
 .logo-header-cab {
+  width: 24px;
+  height: 24px;
+  margin-bottom: -5px;
 }
 .btn.header-btn {
+  height: 24px;
+  width: 155px;
+  border: none;
+  background: none;
   color: #CC9933;
+  margin-left: 550px;
+}
+.header-btn span {
 }
 .header-nav {
+  background-color: #FFFFFF;
+  border-radius: 15px;
 }
 .btn {
 }
 .header-list {
+  
 }
 .hero-container {
 }
@@ -80,6 +96,10 @@
 .blog-searching {
 }
 .header-list-item {
+  list-style-type: none;
+  margin-left: 45px;
+  margin-top: 27px;
+  display: inline-block;
 }
 .section-title.hero-title {
 }
@@ -100,6 +120,7 @@
 .allocation-cards-blog-3 {
 }
 .header-link {
+  
 }
 .hero-blog-cards-1 {
 }
