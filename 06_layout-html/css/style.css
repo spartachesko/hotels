@@ -27,6 +27,7 @@ a {
 }
 .container {
   margin: 30px 375px;
+  position: relative;
 }
 .hero {
 }
@@ -86,16 +87,18 @@ a {
   display: flex;
   width: 1170px;
   height: 70px;
-  justify-content: flex-start;
+  /*justify-content: flex-start;*/
   align-items: center;
-  flex-direction: row;
+  /*flex-direction: row;*/
 }
 .btn {
   padding: 13px 20px;
   height: 42px;
   border: 1px solid #CC9933;
   border-radius: 10px;
-  color: #CC9933
+  color: #CC9933;
+  vertical-align: middle;
+  /*display: inline-block;*/
 }
 
 .btn-answerback {
@@ -109,6 +112,7 @@ a {
   padding-left: 0;
 }
 .hero-container {
+  position: relative;
 }
 .section-title.about-us {
 }
@@ -148,9 +152,14 @@ a {
   margin-right: 56px;
 }
 
+.section-title {
+  font-size: 40px;
+}
+
 .section-title.hero-title {
 }
 .hero-cards {
+  position: relative;
 }
 .services-cards-blog-1 {
 }
@@ -170,12 +179,14 @@ a {
   color: inherit;
 }
 .hero-blog-cards-1 {
+  position: relative;
 }
 .hero-blog-cards-2 {
 }
 .services-card {
 }
 .btn-arrow {
+  position: relative;
 }
 .section-descr.services-descr {
 }
@@ -183,12 +194,39 @@ a {
 }
 .allocation-card {
 }
-.hero-card {
+.hero-card-1 {
+  background-image: url("../img/hero-card-1.jpg");
+  height: 258px;
+  width: 573px;
+}
+.hero-card-2 {
+  background-image: url("../img/hero-card-2.jpg");
+  height: 258px;
+  width: 573px;
 }
 .hero-card-title {
+  font-size: 40px;
+  color: #FFFFFF;
+  position: relative;
+  top: 40px;
+  left: 40px;
 }
+
 .hero-card-price {
+  color: #FFFFFF;
+  position: relative;
+  top: 40px;
+  font-size: 20px;
+  
 }
+
+.hero-card-descr {
+  width: 299px;
+  height: 178px;
+  position: relative;
+}
+
+
 .arrow {
 }
 .benefit-logo {
