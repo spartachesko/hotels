@@ -152,6 +152,8 @@ a {
 }
 .hero-cards {
   position: relative;
+  display: flex;
+  justify-content:flex-start;
 }
 .services-cards-blog-1 {
 }
@@ -173,15 +175,19 @@ a {
 .hero-blog-cards-1 {
   position: relative;
   display: inline-block;
+  width: 100px;
 }
 .hero-blog-cards-2 {
   width: 573px;
   height: 540px;
   background-image: url("../img/hero-card-3.jpg");
-
+  display: inline-block;
+  position: relative;
 }
+
 .services-card {
 }
+
 .btn-arrow {
   position: relative;
   display: inline-block;
@@ -224,8 +230,6 @@ a {
   display: inline-block;
   width: 100%;
   margin-bottom: 47px;
-
-  
 }
 
 .hero-card-descr {
