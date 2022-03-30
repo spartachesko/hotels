@@ -9,6 +9,10 @@ a {
 
 /* glob */
 
+.flex {
+  display: flex;
+}
+
 .container {
   margin: 30px 375px;
   position: relative;
@@ -42,7 +46,6 @@ a {
 /* header */
 
 .header-first-line {
-  display: flex;
   margin-bottom: 30px;
 }
 
@@ -66,10 +69,10 @@ a {
 .header-nav {
   background-color: #FFFFFF;
   border-radius: 15px;
-  display: flex;
   width: 1170px;
   height: 70px;
   align-items: center;
+  margin: auto;
 }
 
 .header-list {
