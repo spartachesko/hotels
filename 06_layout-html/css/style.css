@@ -196,8 +196,30 @@ a {
 
 /* benefits */
 
+.benefit-cards {
+  flex-wrap: wrap;
+}
+
+.benefit-card {
+  width: 275px;
+  height: 275px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  margin-right: 23px;
+  margin-bottom: 23px;
+}
+
 
 /* allocation */
+
+.allocation-card {
+  width: 374px;
+  height: 440px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  margin-right: 23px;
+  margin-bottom: 23px;
+}
 
 
 /* blog */
