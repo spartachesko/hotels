@@ -29,6 +29,17 @@ a {
   background-color: #FFFFFF;
 }
 
+.btn-appartaments {
+  padding: 13px 20px;
+  height: 42px;
+  width: 100px;
+  border: 1px solid #CC9933;
+  border-radius: 10px;
+  color: #CC9933;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+}
+
 .btn-arrow {
   position: relative;
   display: inline-block;
