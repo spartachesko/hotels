@@ -228,6 +228,7 @@ a {
   border-radius: 15px;
   background-color: #FFFFFF;
   margin-bottom: 23px;
+  flex-direction: column;
 }
 
 .allocation-card:not(:nth-child(3n)) {
