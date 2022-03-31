@@ -26,6 +26,7 @@ a {
   border-radius: 10px;
   color: #CC9933;
   vertical-align: middle;
+  background-color: #FFFFFF;
 }
 
 .btn-arrow {
@@ -203,7 +204,7 @@ a {
 
 /* benefits */
 
-.benefit-cards {
+.benefits-cards {
   display: flex;
   flex-wrap: wrap;
 }
