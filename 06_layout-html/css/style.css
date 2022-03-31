@@ -180,6 +180,10 @@ a {
 
 /* services */
 
+.services-cards {
+  flex-wrap: wrap;
+}
+
 
 /* benefits */
 
