@@ -189,8 +189,11 @@ a {
   height: 330px;
   background-color: #FFFFFF;
   border-radius: 15px;
-  margin-right: 23px;
   margin-bottom: 23px;
+}
+
+.services-card:not(:nth-child(2n)) {
+  margin-right: 23px;
 }
 
 
@@ -205,8 +208,11 @@ a {
   height: 275px;
   border-radius: 15px;
   background-color: #FFFFFF;
-  margin-right: 23px;
   margin-bottom: 23px;
+}
+
+.benefit-card:not(:nth-child(4n)) {
+  margin-right: 23px;
 }
 
 
