@@ -106,7 +106,6 @@ a {
   background-image: url("../img/hero-card-1.jpg");
   height: 258px;
   width: 573px;
-  display: inline-block;
 }
 
 .hero-card-2 {
@@ -120,7 +119,7 @@ a {
   font-size: 40px;
   color: #FFFFFF;
   position: relative;
-  display: inline-block;
+  flex-direction: row;
 }
 
 .hero-card-price {
