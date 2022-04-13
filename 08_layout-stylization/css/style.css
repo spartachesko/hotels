@@ -1,0 +1,277 @@
+body {
+  background-color: #F1F1F1;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* glob */
+
+.flex {
+  display: flex;
+}
+
+.container {
+  margin: 30px 375px;
+  position: relative;
+  width: 1170px;
+}
+
+.btn {
+  padding: 13px 20px;
+  height: 42px;
+  border: 1px solid #CC9933;
+  border-radius: 10px;
+  color: #CC9933;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+}
+
+.btn-appartaments {
+  padding: 13px 20px;
+  height: 42px;
+  width: 100px;
+  border: 1px solid #CC9933;
+  border-radius: 10px;
+  color: #CC9933;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+}
+
+.btn-arrow {
+  position: relative;
+  display: inline-block;
+  color: #FFCC66;
+  font-size: 16px;
+  background: none;
+  border: none;
+  text-align: center;
+}
+
+.btn-answerback {
+  margin-left: 40px;
+  margin-right: 45px;
+}
+
+
+/* header */
+
+.header-first-line {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.header-logo {
+  width: 261px;
+  height: 54px;
+  margin-right: 40px;
+}
+
+.header-btn {
+  height: 24px;
+  width: 155px;
+  border: none;
+  background: none;
+  color: #CC9933;
+  display: inline-block;
+  margin-left: 550px;
+  margin-top: 20px;
+}
+
+.header-nav {
+  display: flex;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  width: 1170px;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-list {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.header-list-item {
+  list-style-type: none;
+  margin-left: 45px;
+  color: #666666;
+  display: inline-block;
+}
+
+.header-list-item:last-child {
+  list-style-type: none;
+  margin-left: 45px;
+  color: #666666;
+  display: inline-block;
+  margin-right: 56px;
+}
+
+.header-link {
+  color: inherit;
+}
+
+
+/* hero */
+
+.hero-card-1 {
+  background-image: url("../img/hero-card-1.jpg");
+  height: 258px;
+  width: 573px;
+}
+
+.hero-card-2 {
+  background-image: url("../img/hero-card-2.jpg");
+  height: 258px;
+  width: 573px;
+  margin-top: 23px;
+}
+
+.hero-card-title {
+  font-size: 40px;
+  color: #FFFFFF;
+  position: relative;
+  flex-direction: row;
+}
+
+.hero-card-price {
+  color: #FFFFFF;
+  position: relative;
+  font-size: 20px;
+  top: 15px;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 47px;
+}
+
+.hero-card-descr {
+  width: 299px;
+  height: 178px;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 40px;
+  display: inline-block;
+}
+
+.hero-card-descr-2 {
+  width: 299px;
+  height: 178px;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 40px;
+  display: inline-block;
+}
+
+.hero-container {
+  position: relative;
+}
+
+.hero-cards {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.hero-blog-cards-1 {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+}
+
+.hero-blog-cards-2 {
+  width: 573px;
+  height: 540px;
+  background-image: url("../img/hero-card-3.jpg");
+  display: inline-block;
+  position: relative;
+}
+
+
+/* about-us */
+
+
+/* services */
+
+.services-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services-card {
+  width: 573px;
+  height: 330px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  margin-bottom: 23px;
+}
+
+.services-card:not(:nth-child(2n)) {
+  margin-right: 23px;
+}
+
+
+/* benefits */
+
+.benefits-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.benefit-card {
+  width: 275px;
+  height: 275px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  margin-bottom: 23px;
+}
+
+.benefit-card:not(:nth-child(4n)) {
+  margin-right: 23px;
+}
+
+
+/* allocation */
+
+.allocation-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.allocation-card {
+  display: flex;
+  width: 374px;
+  height: 440px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  margin-bottom: 23px;
+  flex-direction: column;
+}
+
+.allocation-card:not(:nth-child(3n)) {
+  margin-right: 23px;
+}
+
+
+/* blog */
+
+.rectangle-nav {
+  margin-right: 56px;
+}
+
+.section-title {
+  font-size: 40px;
+}
+
+
+/* contacts */
+
+.contacts-item-link {
+  color: #666666;
+  margin-top: 20px;
+}
+
+
+/* footer */
