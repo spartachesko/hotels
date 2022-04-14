@@ -81,8 +81,6 @@ a {
   background: none;
   border: none;
   text-align: center;
-  margin-left: 45px;
-  margin-top: 26px;
   padding-left: 0;
   font-family: 'Muller-Medium', sans-serif;
 }
@@ -191,7 +189,8 @@ a {
   position: absolute;
   margin-top: 40px;
   margin-left: 40px;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-card-descr-2 {
