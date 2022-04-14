@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Muller Light';
+  font-family: 'Muller-Light';
   src: local('Muller Light'), local('Muller-Light'), url('../fonts/MullerLight.woff2') format('woff2'), url('../fonts/MullerLight.woff') format('woff');
   font-weight: 300;
   font-style: normal;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: 'Muller Regular';
+  font-family: 'Muller-Regular';
   src: local('Muller Regular'), local('Muller-Regular'), url('../fonts/MullerRegular.woff2') format('woff2'), url('../fonts/MullerRegular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: 'Muller Medium';
+  font-family: 'Muller-Medium';
   src: local('Muller Medium'), local('Muller-Medium'), url('../fonts/MullerMedium.woff2') format('woff2'), url('../fonts/MullerMedium.woff') format('woff');
   font-weight: 600;
   font-style: normal;
@@ -23,16 +23,16 @@
 }
 
 @font-face {
-  font-family: 'Muller Bold';
+  font-family: 'Muller-Bold';
   src: local('Muller Bold'), local('Muller-Bold'), url('../fonts/MullerBold.woff2') format('woff2'), url('../fonts/MullerBold.woff') format('woff');
-  font-weight: 600;
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 body {
   background-color: #F1F1F1;
-  font-family: 'Muller Regular', sans-serif;
+  font-family: 'Muller-Regular', sans-serif;
 }
 
 a {
@@ -85,6 +85,7 @@ a {
   margin-left: 45px;
   margin-top: 26px;
   padding-left: 0;
+  font-family: 'Muller-Medium', sans-serif;
 }
 
 .btn-answerback {
@@ -172,6 +173,7 @@ a {
   color: #FFFFFF;
   position: relative;
   flex-direction: row;
+  font-family: 'Muller-Bold', sans-serif;
 }
 
 .hero-card-price {
@@ -233,11 +235,15 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 200%;
-  font-family: 'Muller', sans-serif;
+  font-family: 'Muller-Regular', sans-serif;
 }
 
 
 /* services */
+
+.services-title {
+  font-family: 'Muller-Medium', sans-serif;
+}
 
 .services-cards {
   display: flex;
@@ -300,7 +306,7 @@ a {
   margin-bottom: 40px;
   width: 118px;
   height: 118px;
-  font-family: 'Muller Regular', sans-serif;
+  font-family: 'Muller-Regular', sans-serif;
 }
 
 
@@ -328,6 +334,10 @@ a {
 .allocation-price {
   margin-top: 36px;
   margin-left: 45px;
+}
+
+.allocation-price-style {
+  font-family: 'Muller-Bold', sans-serif;
 }
 
 .allocation-hotel {
@@ -358,6 +368,7 @@ a {
 .contacts-item-link {
   color: #666666;
   margin-top: 20px;
+  font-family: 'Muller-Medium', sans-serif;
 }
 
 
