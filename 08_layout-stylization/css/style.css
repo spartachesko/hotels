@@ -96,6 +96,7 @@ a {
 .header-first-line {
   display: flex;
   margin-bottom: 30px;
+  justify-content: space-between;
 }
 
 .header-logo {
@@ -110,9 +111,10 @@ a {
   border: none;
   background: none;
   color: #CC9933;
-  display: inline-block;
-  margin-left: 550px;
+  display: flex;
+  /* margin-left: 550px; */
   margin-top: 20px;
+  font-size: 16px;
 }
 
 .header-nav {
@@ -405,6 +407,7 @@ a {
   color: #666666;
   margin-top: 20px;
   font-family: 'Muller-Medium', sans-serif;
+  font-size: 20px;
 }
 
 
