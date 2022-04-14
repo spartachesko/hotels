@@ -32,7 +32,7 @@
 
 body {
   background-color: #F1F1F1;
-  font-family: 'Muller', sans-serif;
+  font-family: 'Muller Regular', sans-serif;
 }
 
 a {
@@ -71,6 +71,7 @@ a {
   color: #CC9933;
   vertical-align: middle;
   background-color: #FFFFFF;
+  margin-left: 45px;
 }
 
 .btn-arrow {
@@ -322,6 +323,22 @@ a {
 
 .allocation-card:not(:nth-child(3n)) {
   margin-right: 23px;
+}
+
+.allocation-price {
+  margin-top: 36px;
+  margin-left: 45px;
+}
+
+.allocation-hotel {
+  margin-left: 45px;
+  margin-top: 16px;
+}
+
+.allocation-place {
+  margin-left: 45px;
+  margin-top: 16px;
+  margin-bottom: 20px;
 }
 
 
