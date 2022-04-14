@@ -339,6 +339,10 @@ a {
   margin-left: 54px;
 }
 
+.allocation-btn-arrow .btn-arrow {
+  color: #FFFFFF;
+}
+
 .allocation-btn {
   margin-left: 45px;
 }
