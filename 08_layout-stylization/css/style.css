@@ -93,6 +93,11 @@ a {
 
 /* header */
 
+.our__logo {
+  display: flex;
+  align-items: center
+}
+
 .contacts-header-item-link {
   color: #666666;
   margin-top: 20px;
@@ -103,8 +108,9 @@ a {
 
 .header-first-line {
   display: flex;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   justify-content: space-between;
+  align-items: center;
 }
 
 .header-logo {
@@ -115,13 +121,16 @@ a {
 
 .header-btn {
   height: 24px;
-  width: 155px;
   border: none;
   background: none;
   color: #CC9933;
   display: flex;
   margin-top: 20px;
   font-size: 16px;
+}
+
+.header-btn a {
+  color: #CC9933;
 }
 
 .header-nav {
