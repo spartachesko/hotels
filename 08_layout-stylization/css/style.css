@@ -282,13 +282,15 @@ a {
 }
 
 .services-descr {
-  margin-left: 45px;
   margin-top: 0;
 }
 
 .services-text {
   width: 402px;
   height: 89px;
+  margin-left: 45px;
+  margin-top: 26px;
+  line-height: 200%;
 }
 
 
@@ -326,6 +328,7 @@ a {
   width: 118px;
   height: 118px;
   font-family: 'Muller-Regular', sans-serif;
+  line-height: 200%;
 }
 
 
