@@ -100,15 +100,12 @@ a {
 
 .contacts-header-item-link {
   color: #666666;
-  margin-top: 20px;
   font-family: 'Muller-Medium', sans-serif;
   font-size: 20px;
-  margin-right: 550px;
 }
 
 .header-first-line {
   display: flex;
-  /* margin-bottom: 30px; */
   justify-content: space-between;
   align-items: center;
 }
@@ -125,7 +122,7 @@ a {
   background: none;
   color: #CC9933;
   display: flex;
-  margin-top: 20px;
+  align-items: center;
   font-size: 16px;
 }
 
