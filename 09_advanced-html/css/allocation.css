@@ -54,3 +54,14 @@
   margin-bottom: 20px;
   color: #999999;
 }
+
+.btn-appartaments {
+  padding: 13px 20px;
+  height: 42px;
+  width: 100px;
+  border: 1px solid #CC9933;
+  border-radius: 10px;
+  color: #CC9933;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+}

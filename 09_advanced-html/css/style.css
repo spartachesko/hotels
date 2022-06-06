@@ -5,6 +5,7 @@
 @import url('hero.css');
 @import url('services.css');
 @import url('benefits.css');
+@import url('blog.css');
 body {
   background-color: #F1F1F1;
   font-family: 'Muller-Regular', sans-serif;
@@ -33,17 +34,6 @@ a {
   background-color: #FFFFFF;
 }
 
-.btn-appartaments {
-  padding: 13px 20px;
-  height: 42px;
-  width: 100px;
-  border: 1px solid #CC9933;
-  border-radius: 10px;
-  color: #CC9933;
-  vertical-align: middle;
-  background-color: #FFFFFF;
-}
-
 .btn-arrow {
   position: relative;
   display: flex;
@@ -54,11 +44,6 @@ a {
   text-align: center;
   padding-left: 0;
   font-family: 'Muller-Medium', sans-serif;
-}
-
-.btn-answerback {
-  margin-left: 40px;
-  margin-right: 45px;
 }
 
 

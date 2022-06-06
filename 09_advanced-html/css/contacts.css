@@ -3,17 +3,19 @@
   flex-direction: column;
   width: 49%;
   outline: solid 1px blue;
-  width: 375px;
-  height: 528px;
+  /* width: 375px; */
+  /* height: 528px; */
+  flex-wrap: wrap;
 }
 
 .wapper__contacts {
   display: flex;
   outline: solid 1px green;
   padding-top: 1rem;
-  width: 1168px;
-  height: 618px;
+  /* width: 1168px; */
+  /* height: 618px; */
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .contacts__points div {
@@ -26,8 +28,10 @@
 
 .contacts__points p {
   width: 15rem;
-  outline: solid 1px pink;
+  outline: solid 1px red;
   display: flex;
   flex-direction: column;
   line-height: 1.5rem;
 }
+
+.contacts__points button {}
