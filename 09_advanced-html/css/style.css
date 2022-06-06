@@ -1,35 +1,4 @@
-@font-face {
-  font-family: 'Muller-Light';
-  src: local('Muller Light'), local('Muller-Light'), url('../fonts/MullerLight.woff2') format('woff2'), url('../fonts/MullerLight.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Muller-Regular';
-  src: local('Muller Regular'), local('Muller-Regular'), url('../fonts/MullerRegular.woff2') format('woff2'), url('../fonts/MullerRegular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Muller-Medium';
-  src: local('Muller Medium'), local('Muller-Medium'), url('../fonts/MullerMedium.woff2') format('woff2'), url('../fonts/MullerMedium.woff') format('woff');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Muller-Bold';
-  src: local('Muller Bold'), local('Muller-Bold'), url('../fonts/MullerBold.woff2') format('woff2'), url('../fonts/MullerBold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
+@import url('fonts.css');
 body {
   background-color: #F1F1F1;
   font-family: 'Muller-Regular', sans-serif;
@@ -41,10 +10,6 @@ a {
 
 
 /* glob */
-
-.flex {
-  display: flex;
-}
 
 .container {
   margin: 30px 375px;
@@ -419,6 +384,40 @@ a {
 
 
 /* contacts */
+
+.contacts__points {
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+  outline: solid 1px blue;
+  width: 375px;
+  height: 528px;
+}
+
+.wapper__contacts {
+  display: flex;
+  outline: solid 1px green;
+  padding-top: 1rem;
+  width: 1168px;
+  height: 618px;
+  justify-content: space-around;
+}
+
+.contacts__points div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 30rem;
+  outline: solid 1px pink;
+}
+
+.contacts__points p {
+  width: 15rem;
+  outline: solid 1px pink;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5rem;
+}
 
 
 /* footer */
