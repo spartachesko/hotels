@@ -16,6 +16,8 @@
   /* height: 618px; */
   justify-content: space-around;
   flex-wrap: wrap;
+  background-color: #fff;
+  border-radius: 15px;
 }
 
 .contacts__points div {
@@ -34,4 +36,8 @@
   line-height: 1.5rem;
 }
 
-.contacts__points button {}
+.button__route {
+  height: 70px;
+  width: 213px;
+  padding: 27px 29px;
+}
