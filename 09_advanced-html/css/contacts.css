@@ -1,0 +1,33 @@
+.contacts__points {
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+  outline: solid 1px blue;
+  width: 375px;
+  height: 528px;
+}
+
+.wapper__contacts {
+  display: flex;
+  outline: solid 1px green;
+  padding-top: 1rem;
+  width: 1168px;
+  height: 618px;
+  justify-content: space-around;
+}
+
+.contacts__points div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 30rem;
+  outline: solid 1px pink;
+}
+
+.contacts__points p {
+  width: 15rem;
+  outline: solid 1px pink;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5rem;
+}

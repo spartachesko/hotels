@@ -1,0 +1,56 @@
+.allocation-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.allocation-card {
+  display: flex;
+  width: 374px;
+  height: 440px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  margin-bottom: 23px;
+  flex-direction: column;
+}
+
+.allocation-card:not(:nth-child(3n)) {
+  margin-right: 23px;
+}
+
+.allocation-card:last-child {
+  background-image: url("../img/allocation-img-9.jpg");
+}
+
+.allocation-btn-arrow {
+  margin-top: 373px;
+  margin-left: 54px;
+}
+
+.allocation-btn-arrow .btn-arrow {
+  color: #FFFFFF;
+}
+
+.allocation-btn {
+  margin-left: 45px;
+}
+
+.allocation-price {
+  margin-top: 36px;
+  margin-left: 45px;
+}
+
+.allocation-price-style {
+  font-family: 'Muller-Bold', sans-serif;
+}
+
+.allocation-hotel {
+  margin-left: 45px;
+  margin-top: 16px;
+}
+
+.allocation-place {
+  margin-left: 45px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+  color: #999999;
+}
