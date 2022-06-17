@@ -1,8 +1,31 @@
-.rectangle-nav {
-  margin-right: 56px;
+.wrapper__blog {
+  background-color: #E9E9E9;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 17.125rem;
+  font-family: 'Muller-Medium', sans-serif;
 }
 
-.section-title {
-  font-size: 40px;
-  margin-left: 40px;
+form {
+  align-self: center;
+  display: flex;
+  background-color: white;
+  border-radius: 15px;
+  width: 67.5rem;
+  height: 6.6rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+form>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-right: 1px solid #E1E1E1;
+  height: 2.6875rem;
+}
+
+div>* {
+  border: none;
 }

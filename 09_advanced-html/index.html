@@ -457,28 +457,41 @@
     </section>
     <section id="blog" class="blog">
       <div class="container">
-        <h2 class="section-title blog-title">
-          Хочу тур
-        </h2>
-        <div class="blog-searching">
-          <div class="">
-
-          </div>
-          <div class="">
-
-          </div>
-          <div class="">
-
-          </div>
-          <div class="">
-
-          </div>
-          <div class="">
-
-          </div>
-          <div class="">
-
-          </div>
+        <div class="wrapper__blog">
+          <h2 class="section-title blog__title">
+            Хочу тур
+          </h2>
+          <form method="post" action="form.php">
+            <div>
+              <label for="country">Город вылета</label>
+              <select name="country">
+                  <option value="Санкт-Петербург">Санкт-Петербург</option> 
+                  <option value="Москва">Москва</option> 
+                  <option value="Казань">Казань</option> 
+              </select>
+            </div>
+            <div>
+              <label for="country">Страна</label>
+              <select name="country">
+                  <option value="Австралия">Австралия</option> 
+                  <option value="Турция">Турция</option> 
+                  <option value="Испания">Испания</option> 
+              </select>
+            </div>
+            <div>
+              <label for="start">Дата прибытия:</label>
+              <input type="date" id="start" name="date-arrived" value="2022-07-22" min="2022-01-01" max="2022-12-31">
+            </div>
+            <div>
+              <label for="nights">Ночей:</label>
+              <input type="number" id="nights" min="1">
+            </div>
+            <div>
+              <label for="tourists">Туристы:</label>
+              <input type="number" id="tourists" min="1">
+            </div>
+            <button type="submit" class="btn">Найти</button>
+          </form>
         </div>
       </div>
     </section>

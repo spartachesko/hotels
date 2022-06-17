@@ -47,6 +47,15 @@ a {
   font-family: 'Muller-Medium', sans-serif;
 }
 
+.section-title {
+  font-size: 40px;
+  margin-left: 40px;
+}
+
+.rectangle-nav {
+  margin-right: 56px;
+}
+
 
 /* about-us */
 
