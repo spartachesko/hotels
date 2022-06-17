@@ -24,8 +24,14 @@ form>div {
   justify-content: space-evenly;
   border-right: 1px solid #E1E1E1;
   height: 2.6875rem;
+  padding-right: 1rem;
 }
 
 div>* {
   border: none;
+}
+
+div>label {
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
 }
