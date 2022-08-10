@@ -1,0 +1,68 @@
+@import url('fonts.css');
+@import url('contacts.css');
+@import url('allocation.css');
+@import url('header.css');
+@import url('hero.css');
+@import url('services.css');
+@import url('benefits.css');
+@import url('blog.css');
+@import url('footer.css');
+body {
+  background-color: #F1F1F1;
+  font-family: 'Muller-Regular', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* glob */
+
+.container {
+  margin: 30px 375px;
+  position: relative;
+  width: 1170px;
+}
+
+.btn {
+  padding: 13px 20px;
+  height: 42px;
+  border: 1px solid #CC9933;
+  border-radius: 10px;
+  color: #CC9933;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+}
+
+.btn-arrow {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #FFCC66;
+  font-size: 16px;
+  background: none;
+  border: none;
+  text-align: center;
+  padding-left: 0;
+  font-family: 'Muller-Medium', sans-serif;
+}
+
+.section-title {
+  font-size: 40px;
+  margin-left: 40px;
+}
+
+.rectangle-nav {
+  margin-right: 56px;
+}
+
+
+/* about-us */
+
+.about-us-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  font-family: 'Muller-Regular', sans-serif;
+}

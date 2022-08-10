@@ -1,0 +1,34 @@
+.benefit-logo {
+  margin-top: 40px;
+  margin-left: 45px;
+  width: 23%;
+  height: 23%;
+}
+
+.benefits-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.benefit-card {
+  display: flex;
+  flex-direction: column;
+  width: 275px;
+  height: 275px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  margin-bottom: 23px;
+}
+
+.benefit-card:not(:nth-child(4n)) {
+  margin-right: 23px;
+}
+
+.benefit-descr {
+  margin-left: 45px;
+  margin-bottom: 40px;
+  width: 188px;
+  height: 118px;
+  font-family: 'Muller-Regular', sans-serif;
+  line-height: 200%;
+}

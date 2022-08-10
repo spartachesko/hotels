@@ -1,0 +1,41 @@
+.wrapper__blog {
+  background-color: #E9E9E9;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 17.125rem;
+  font-family: 'Muller-Medium', sans-serif;
+}
+
+form {
+  align-self: center;
+  display: flex;
+  background-color: white;
+  border-radius: 15px;
+  width: 67.5rem;
+  height: 6.6rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+form>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-right: 1px solid #E1E1E1;
+  height: 2.6875rem;
+  padding-right: 1rem;
+}
+
+div>* {
+  border: none;
+}
+
+div>label {
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+}
+
+form input[type=number] {
+  border-bottom: 1px solid #E1E1E1;
+}

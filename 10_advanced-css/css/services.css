@@ -1,0 +1,32 @@
+.services-title {
+  font-family: 'Muller-Medium', sans-serif;
+}
+
+.services-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services-card {
+  width: 573px;
+  height: 330px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  margin-bottom: 23px;
+}
+
+.services-card:not(:nth-child(2n)) {
+  margin-right: 23px;
+}
+
+.services-descr {
+  margin-top: 0;
+}
+
+.services-text {
+  width: 402px;
+  height: 89px;
+  margin-left: 45px;
+  margin-top: 26px;
+  line-height: 200%;
+}
