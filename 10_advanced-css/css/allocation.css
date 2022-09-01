@@ -4,6 +4,7 @@
 }
 
 .allocation-card {
+  position:relative;
   display: flex;
   width: 374px;
   height: 440px;
@@ -19,6 +20,8 @@
 
 .allocation-card:last-child {
   background-image: url("../img/allocation-img-9.jpg");
+  background-repeat: no-repeat;
+
 }
 
 .allocation-btn-arrow {
@@ -26,9 +29,6 @@
   margin-left: 54px;
 }
 
-.allocation-btn-arrow .btn-arrow {
-  color: #FFFFFF;
-}
 
 .allocation-btn {
   margin-left: 45px;
@@ -65,3 +65,72 @@
   vertical-align: middle;
   background-color: #FFFFFF;
 }
+
+.btn-appartaments:focus-visible {
+  outline:0;
+  color: white;
+  background-color: #CC9933;
+}
+
+.btn-appartaments:hover:not(:focus-visible) {
+  color: white;
+  background-color: #CC9933;
+}
+
+.btn-appartaments:active:not(:focus-visible) {
+  color: white;
+  background-color: #A47312;
+}
+
+.allocation-card .card__link{
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  color:white;
+  stroke: white;
+  font-family: 'Muller-Medium', sans-serif;
+}
+
+
+.allocation-card .card__link:hover svg {
+  transform: translateX(5px);
+  stroke: #E9C479;
+}
+
+.allocation-card .card__link:hover:not(:focus-visible) {
+  color: #E9C479;
+}
+
+svg {
+  transition: transform .2s ease-in-out;
+}
+
+.allocation-card .card__link:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  outline: 2px solid #CC9933;
+  outline-offset: 5px;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+}
+.allocation-card .card__link:focus-visible {
+  outline: 0;
+  color: #CC9933;
+  stroke: #CC9933;
+}
+
+
+.allocation-card .card__link:focus-visible:before {
+  opacity: 1;
+}
+
+
+.allocation-card .card__link:active {
+  color: #A47312;
+  stroke:#A47312;
+}
+

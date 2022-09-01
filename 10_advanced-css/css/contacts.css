@@ -1,7 +1,6 @@
 .contacts__points {
   display: flex;
   flex-direction: column;
-  /* outline: solid 1px blue; */
   flex-wrap: wrap;
   margin-left: 2rem;
   font-family: 'Muller-Medium', sans-serif;
@@ -9,7 +8,6 @@
 
 .wrapper__contacts {
   display: flex;
-  /* outline: solid 1px green; */
   padding-top: 1rem;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -28,13 +26,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  /* outline: solid 1px pink; */
   border-bottom: 1px solid #c4c4c4;
 }
 
 .contacts__points p {
   width: 15rem;
-  /* outline: solid 1px red; */
   display: flex;
   flex-direction: column;
   line-height: 1.5rem;
@@ -43,7 +39,27 @@
 
 .contacts__points a {
   color: #CC9933;
+  width: 146px;
+  height: 24px;
 }
+
+.contacts__points a:focus-visible {
+  outline:0;
+  outline:2px solid #CC9933;
+  outline-offset:2px;
+  color: #CC9933;
+}
+
+.contacts__points a:hover:not(:focus-visible) {
+  color: #E9C379;
+}
+
+.contacts__points a:active:not(:focus-visible) {
+  color: #A47312;
+}
+
+
+
 
 .contacts__points p span {
   color: #999999;
@@ -53,11 +69,27 @@
 .button__route {
   height: 70px;
   width: 213px;
-  /* padding: 27px 29px; */
   margin-top: 5rem;
   border: 1px solid #CC9933;
   border-radius: 10px;
   color: #CC9933;
   vertical-align: middle;
   background-color: #FFFFFF;
+}
+
+
+.button__route:focus-visible {
+  outline:0;
+  color: white;
+  background-color: #CC9933;
+}
+
+.button__route:hover:not(:focus-visible) {
+  color: white;
+  background-color: #CC9933;
+}
+
+.button__route:active:not(:focus-visible) {
+  color: white;
+  background-color: #A47312;
 }

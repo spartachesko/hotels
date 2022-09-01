@@ -35,6 +35,22 @@ a {
   background-color: #FFFFFF;
 }
 
+.btn:focus-visible {
+  outline:0;
+  color: white;
+  background-color: #CC9933;
+}
+
+.btn:hover:not(:focus-visible) {
+  color: white;
+  background-color: #CC9933;
+}
+
+.btn:active:not(:focus-visible) {
+  color: white;
+  background-color: #A47312;
+}
+
 .btn-arrow {
   position: relative;
   display: flex;
@@ -58,6 +74,9 @@ a {
 }
 
 
+
+
+
 /* about-us */
 
 .about-us-descr {
@@ -66,3 +85,4 @@ a {
   line-height: 200%;
   font-family: 'Muller-Regular', sans-serif;
 }
+
