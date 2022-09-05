@@ -11,7 +11,7 @@
   padding-top: 1rem;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: #fff;
+  background-color: white;
   border-radius: 15px;
   padding-left: 1rem;
 }
@@ -26,7 +26,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border-bottom: 1px solid #c4c4c4;
+  border-bottom: 1px solid var(--middle-grey);
 }
 
 .contacts__points p {
@@ -38,31 +38,33 @@
 }
 
 .contacts__points a {
-  color: #CC9933;
+  color: var(--middle-brown);
   width: 146px;
   height: 24px;
+  transition-property: color;
+  transition: 0.2s ease-in-out;
 }
 
 .contacts__points a:focus-visible {
   outline:0;
-  outline:2px solid #CC9933;
+  outline:2px solid var(--middle-brown);
   outline-offset:2px;
-  color: #CC9933;
+  color: var(--middle-brown);
 }
 
 .contacts__points a:hover:not(:focus-visible) {
-  color: #E9C379;
+  color: var(--l-m-brown);
 }
 
 .contacts__points a:active:not(:focus-visible) {
-  color: #A47312;
+  color: var(--dark-brown);
 }
 
 
 
 
 .contacts__points p span {
-  color: #999999;
+  color: var(--dark-grey);
   ;
 }
 
@@ -70,26 +72,28 @@
   height: 70px;
   width: 213px;
   margin-top: 5rem;
-  border: 1px solid #CC9933;
+  border: 1px solid var(--middle-brown);
   border-radius: 10px;
-  color: #CC9933;
+  color: var(--middle-brown);
   vertical-align: middle;
-  background-color: #FFFFFF;
+  background-color: white;
+  transition-property: background-color;
+  transition: 0.2s ease-in-out;
 }
 
 
 .button__route:focus-visible {
   outline:0;
   color: white;
-  background-color: #CC9933;
+  background-color: var(--middle-brown);
 }
 
 .button__route:hover:not(:focus-visible) {
   color: white;
-  background-color: #CC9933;
+  background-color: var(--middle-brown);
 }
 
 .button__route:active:not(:focus-visible) {
   color: white;
-  background-color: #A47312;
+  background-color: var(--dark-brown);
 }

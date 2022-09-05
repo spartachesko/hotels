@@ -1,6 +1,4 @@
-.services-title {
-  font-family: 'Muller-Medium', sans-serif;
-}
+
 
 .services-cards {
   display: flex;
@@ -10,11 +8,16 @@
 .services-card {
   width: 573px;
   height: 330px;
-  background-color: #FFFFFF;
+  background-color: white;
   border-radius: 15px;
   margin-bottom: 23px;
   position:relative;
 }
+
+.services-card img{
+  border-radius: 15px 15px 0 0;
+}
+
 
 .services-card:not(:nth-child(2n)) {
   margin-right: 23px;
@@ -37,19 +40,20 @@
   align-self: flex-start;
   display: flex;
   align-items: center;
-  color:#CC9933;
-  stroke: #CC9933;
+  color:var(--middle-brown);
+  stroke: var(--middle-brown);
   font-family: 'Muller-Medium', sans-serif;
+  font-size: 20px;
 }
 
 
 .services-card .card__link:hover svg {
   transform: translateX(5px);
-  stroke: #E9C479;
+  stroke: var(--light-brown);
 }
 
 .services-card .card__link:hover:not(:focus-visible) {
-  color: #E9C479;
+  color: var(--light-brown);
 }
 
 svg {
@@ -63,15 +67,15 @@ svg {
   left: 0;
   right: 0;
   bottom: 0;
-  outline: 2px solid #CC9933;
+  outline: 2px solid var(--middle-brown);
   outline-offset: 5px;
   opacity: 0;
   transition: opacity .3s ease-in-out;
 }
 .services-card .card__link:focus-visible {
   outline: 0;
-  color: #CC9933;
-  stroke: #CC9933;
+  color: var(--middle-brown);
+  stroke: var(--middle-brown);
 }
 
 
@@ -81,7 +85,7 @@ svg {
 
 
 .services-card .card__link:active {
-  color: #A47312;
-  stroke:#A47312;
+  color: var(--dark-brown);
+  stroke: var(--dark-brown);
 }
 

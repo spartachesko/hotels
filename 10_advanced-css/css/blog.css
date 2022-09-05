@@ -22,7 +22,7 @@ form>div {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  border-right: 1px solid #E1E1E1;
+  border-right: 1px solid var(--lm-grey);
   height: 2.6875rem;
   padding-right: 1rem;
 }
@@ -37,5 +37,5 @@ div>label {
 }
 
 form input[type=number] {
-  border-bottom: 1px solid #E1E1E1;
+  border-bottom: 1px solid var(--lm-grey);
 }

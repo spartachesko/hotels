@@ -9,7 +9,7 @@
   width: 374px;
   height: 440px;
   border-radius: 15px;
-  background-color: #FFFFFF;
+  background-color: white;
   margin-bottom: 23px;
   flex-direction: column;
 }
@@ -52,34 +52,36 @@
   margin-left: 45px;
   margin-top: 16px;
   margin-bottom: 20px;
-  color: #999999;
+  color: var(--dark-grey);
 }
 
 .btn-appartaments {
   padding: 13px 20px;
   height: 42px;
   width: 100px;
-  border: 1px solid #CC9933;
+  border: 1px solid var(--middle-brown);
   border-radius: 10px;
-  color: #CC9933;
+  color: var(--middle-brown);
   vertical-align: middle;
-  background-color: #FFFFFF;
+  background-color: white;
+  transition-property: background-color;
+  transition: 0.2s ease-in-out;
 }
 
 .btn-appartaments:focus-visible {
   outline:0;
   color: white;
-  background-color: #CC9933;
+  background-color: var(--middle-brown);
 }
 
 .btn-appartaments:hover:not(:focus-visible) {
   color: white;
-  background-color: #CC9933;
+  background-color: var(--middle-brown);
 }
 
 .btn-appartaments:active:not(:focus-visible) {
   color: white;
-  background-color: #A47312;
+  background-color: var(--dark-brown);
 }
 
 .allocation-card .card__link{
@@ -94,11 +96,11 @@
 
 .allocation-card .card__link:hover svg {
   transform: translateX(5px);
-  stroke: #E9C479;
+  stroke: var(--light-brown);
 }
 
 .allocation-card .card__link:hover:not(:focus-visible) {
-  color: #E9C479;
+  color: var(--light-brown);
 }
 
 svg {
@@ -112,15 +114,16 @@ svg {
   left: 0;
   right: 0;
   bottom: 0;
-  outline: 2px solid #CC9933;
+  outline: 2px solid var(--middle-brown);
   outline-offset: 5px;
   opacity: 0;
   transition: opacity .3s ease-in-out;
 }
+
 .allocation-card .card__link:focus-visible {
   outline: 0;
-  color: #CC9933;
-  stroke: #CC9933;
+  color: var(--middle-brown);
+  stroke: var(--middle-brown);
 }
 
 
@@ -130,7 +133,7 @@ svg {
 
 
 .allocation-card .card__link:active {
-  color: #A47312;
-  stroke:#A47312;
+  color: var(--dark-brown);
+  stroke:var(--dark-brown);
 }
 

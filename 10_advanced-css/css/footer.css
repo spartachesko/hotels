@@ -1,7 +1,7 @@
 .footer__wrapper {
   display: flex;
   justify-content: space-between;
-  background-color: #333333;
+  background-color: var(--dark-black);
   border-radius: 15px;
   color: white;
   line-height: 1.7rem;
@@ -18,22 +18,24 @@
 }
 
 .footer__info a{
-  color: #CC9933;
+  color: var(--middle-brown);
+  transition-property: color;
+  transition: 0.2s ease-in-out;
 }
 
 .footer__info a:focus-visible {
   outline:0;
-  outline:2px solid #CC9933;
+  outline:2px solid var(--middle-brown);
   outline-offset:2px;
-  color: #CC9933;
+  color: var(--middle-brown);
 }
 
 .footer__info a:hover:not(:focus-visible) {
-  color: #E9C379;
+  color: var(--l-m-brown);
 }
 
 .footer__info a:active:not(:focus-visible) {
-  color: #A47312;
+  color: var(--dark-brown);
 }
 
 
@@ -50,7 +52,7 @@
 }
 
 .footer__wrapper a {
-  color: #CC9933;
+  color: var(--middle-brown);
 }
 
 .footer__wrapper article div {
@@ -67,7 +69,7 @@
 }
 
 .footer__descr>p {
-  color: #CC9933;
+  color: var(--middle-brown);
 }
 
 .footer__social {
@@ -91,7 +93,7 @@ ul {
 }
 
 li a path{
-  transition-property: fill, transform;
+  transition-property: fill;
   transition: .3s ease-in-out;
 }
 
@@ -99,11 +101,11 @@ li a:focus-visible path,
 
 li a:hover path {
   outline:0;
-  fill: #CC9933;
-  transform: scale(1.1) translate(-1px, -1px);
+  fill: var(--middle-brown);
+
 }
 
 li a:active path {
-  fill: #A47312;
+  fill: var(--dark-brown);
   opacity: 0.4;
 }
