@@ -1,0 +1,110 @@
+.how {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.how .container {
+  margin: 0 auto;
+}
+
+.how h2{
+  padding-bottom: 25px;
+  font-size: 48px;
+  line-height: 59px;
+}
+
+.stages{
+  display: flex;
+  padding-top: 27px;
+  padding-bottom: 45px;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 26%;
+  justify-content: space-between;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+
+
+.how article {
+  display: flex;
+  position: relative;
+}
+
+.how article:before{
+  content: "";
+  position: absolute;
+  width: 49%;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  border-radius: 32px;
+  
+  background-image: url('/img/Rectangle18.png');
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 1200px) {
+  .how article * {
+    width: 100%; 
+  }
+  .how article:before {
+    width: 100%;
+    min-height: 180px;
+    bottom: auto;
+  }
+  .how article {
+    padding-top: 190px;
+  }
+}
+
+
+.how article {
+  display: flex;
+  flex-direction: column;
+}
+
+.how article h3{
+  line-height: 32px;
+  font-size: 24px;
+  padding-bottom: 4px;
+  font-family: 'Bold', sans-serif;
+  
+}
+
+
+.how article p{
+  padding-top: 4px;
+  line-height: 32px;
+  padding-bottom: 9px;
+  max-width: 700px;
+  font-size: 16px;
+  
+}
+
+.how article span{
+  padding-top: 9px;
+  display: flex;
+  line-height: 19.5px;
+  max-width: 25%;
+}
+
+.how article button:first-child {
+  margin-right: var(--gap);
+  outline-color: var(--orange);
+  padding: 19px 38px;
+  background: var(--orange);
+  border-radius: 16px;
+  color: white;
+  font-family: 'Bold', sans-serif;
+}
+
+.how article button:last-child {
+  outline-color: var(--black);
+  padding: 19px 38px;
+  background: white;
+  border-radius: 16px;
+  color: var(--black);
+}

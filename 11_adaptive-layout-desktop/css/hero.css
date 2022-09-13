@@ -1,0 +1,44 @@
+.hero {
+  margin-bottom: 50px;
+}
+
+.hero .container{
+  background-image: url('/img/balcon.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 32px;
+  padding-left: 80px;
+  padding-top: 100px;
+}
+
+
+.hero h1{
+  color: white;
+  max-width: 837px;
+  font-size: 70px;
+  padding-bottom: 12px;
+  font-family: 'Extrabold', sans-serif;
+  line-height: 85px
+}
+
+.hero p{
+  color: white;
+  font-size: 24px;
+  max-width: 790px;
+  padding-top: 12px;
+  padding-bottom: 45px;
+  font-family: 'Bold', sans-serif;
+  line-height: 29px;
+}
+
+.hero button {
+  outline-color: var(--orange);
+  padding: 25px 39px;
+  background: var(--orange);
+  border-radius: 16px;
+  color: white;
+  font-size: 23px;
+  font-family: 'Bold', sans-serif;
+  margin-top: 45px;
+  margin-bottom: 100px;
+}

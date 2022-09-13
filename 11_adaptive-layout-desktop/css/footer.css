@@ -1,0 +1,136 @@
+footer * {
+  color: var(--light-grey);
+}
+
+footer {
+  margin-bottom: 50px;
+  background-color: #000000;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  max-height: 494px;
+  position: relative;
+}
+
+.footer__info ul {
+  color: var(--light-grey);
+  padding-top: 10px;
+  margin-bottom: 90px;
+  line-height: 36px;
+  font-size: 18px;
+  font-family: 'Semibold', sans-serif;
+
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  margin-right: 7%;
+}
+
+.footer__info>svg {
+  margin-bottom: 10px;
+}
+
+
+.footer__info span {
+  display: flex;
+  justify-content: space-between;
+  max-width: 60%;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+form h3 {
+  font-size: 48px;
+  line-height: 59px;
+  margin-bottom: 25px;
+}
+
+form span {
+  display: flex;
+  align-items: center;
+  line-height: 32px;
+}
+
+input#check {
+  margin-right: 4px;
+}
+
+.custom-checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.custom-checkbox+label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.custom-checkbox+label::before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 0.25em;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.custom-checkbox:checked+label::before {
+  border-color: var(--light-grey);
+  background-color:black;
+  background-image: url("/img/check.svg");
+}
+
+.form__input {
+  width: 100%;
+  border-radius: 16px;
+  height: 60px;
+  background-color: var(--light-black);
+  line-height: 32px;
+  margin-bottom: 25px;
+}
+
+.form__input:last-child {
+  min-height: 150px;
+}
+
+footer button {
+  outline-color: var(--orange);
+  padding: 19px 38px;
+  background: var(--orange);
+  border-radius: 16px;
+  color: white;
+  font-size: 20px;
+  margin-right: var(--gap);
+  font-family: 'Bold', sans-serif;
+  line-height: 20px;
+}
+
+
+
+.footer__descr {
+  display: flex;
+  max-width: 20%;
+  line-height: 32px;
+  align-items: center;
+}

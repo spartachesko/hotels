@@ -1,0 +1,31 @@
+header {
+  position: relative;
+  margin-bottom: 50px;
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 32px 32px;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  margin-right: auto;
+  padding: 14px 0 14px 0;
+}
+
+nav ul {
+  display: flex;
+  margin-right: 16rem;
+  font-family: 'Semibold', sans-serif;
+  font-size: 18px;
+}
+
+nav ul li{
+  margin-right: 85px;
+}
+
+nav ul li:last-child{
+  margin-right: 0;
+}
