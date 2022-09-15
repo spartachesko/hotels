@@ -53,7 +53,8 @@
 }
 
 .about-first-blog div button{
-  background: var(--orange);
+  outline:0;
+  outline:3px solid var(--orange);
   border-radius: 16px;
   color: white;
   font-size: 23px;
@@ -61,10 +62,32 @@
   padding: 20px 38px;
   font-size: 16px;
   background-color: rgba(0, 0, 0, 0.1);
-  outline: 3px solid var(--orange);
   font-family: 'Bold', sans-serif;
   line-height: 20px;
 }
+
+
+.about-first-blog div button:focus-visible {
+  outline:0;
+  outline:2px solid var(--orange);
+  color: white;
+  background-color: var(--orange);
+}
+
+.about-first-blog div button:hover:not(:focus-visible) {
+  color: white;
+  outline:2px solid var(--orange);
+  background-color: var(--orange);
+}
+
+.about-first-blog div button:active:not(:focus-visible) {
+  color: white;
+  outline:2px solid var(--red);
+  background-color: var(--red);
+}
+
+
+
 
 .about-second-blog {
   display: flex;

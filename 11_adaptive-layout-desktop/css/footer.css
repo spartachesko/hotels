@@ -39,12 +39,67 @@ footer .container {
   margin-bottom: 10px;
 }
 
+.footer__link {
+  position: relative;
+  outline: 2px solid transparent;
+  outline-offset: 5px;
+
+  transition-property: color, outline-color;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+}
+
+
+.footer__link:focus-visible {
+  outline: 0;
+  outline: 2px solid var(--orange);
+}
+
+
+.footer__link:hover:not(:focus-visible) {
+  color: var(--orange);
+}
+
+
+.footer__link:active:not(:focus-visible) {
+  color: var(--red);
+}
+
 
 .footer__info span {
   display: flex;
   justify-content: space-between;
   max-width: 60%;
 }
+
+
+.social__link path {
+  transition-property: fill;
+  transition: .3s ease-in-out;
+}
+
+.social__link:focus-visible {
+  outline: 0;
+  outline: 2px solid var(--orange);
+  outline-offset: 5px;
+}
+
+.social__link:hover:not(:focus-visible) path {
+  fill: var(--orange);
+}
+
+.social__link:active:not(:focus-visible) path {
+  fill: var(--red);
+}
+
+
+
+
+
+
+
+
+
 
 
 form {
@@ -80,6 +135,7 @@ input#check {
   align-items: center;
   user-select: none;
 }
+
 .custom-checkbox+label::before {
   content: '';
   display: inline-block;
@@ -97,7 +153,7 @@ input#check {
 
 .custom-checkbox:checked+label::before {
   border-color: var(--light-grey);
-  background-color:black;
+  background-color: black;
   background-image: url("/img/check.svg");
 }
 
@@ -108,10 +164,29 @@ input#check {
   background-color: var(--light-black);
   line-height: 32px;
   margin-bottom: 25px;
+  padding-left: 24px;
+  color: white;
+
+  transition-property: background-color;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
 }
+
+.form__input:focus-visible,
+.form__input:hover {
+  outline: 0;
+  background-color: var(--hard-grey);
+}
+
+
+.form__input:active:not(:focus-visible) {
+  background-color: var(--hard-grey);
+}
+
 
 .form__input:last-child {
   min-height: 150px;
+  padding-top: 14px;
 }
 
 footer button {
@@ -124,8 +199,23 @@ footer button {
   margin-right: var(--gap);
   font-family: 'Bold', sans-serif;
   line-height: 20px;
+
+  transition-property: background-color;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
 }
 
+
+footer button:focus-visible,
+footer button:hover {
+  outline: 0;
+  background-color: var(--light-orange);
+}
+
+
+footer button:active:not(:focus-visible) {
+  background-color: var(--red);
+}
 
 
 .footer__descr {

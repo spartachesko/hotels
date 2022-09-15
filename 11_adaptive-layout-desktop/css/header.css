@@ -15,6 +15,9 @@ header .container {
   padding: 14px 0 14px 0;
 }
 
+
+
+
 nav ul {
   display: flex;
   margin-right: 16rem;
@@ -28,4 +31,74 @@ nav ul li{
 
 nav ul li:last-child{
   margin-right: 0;
+}
+
+
+
+.header__link {
+  position: relative;
+  outline: 2px solid transparent;
+  outline-offset: 5px;
+  
+  transition-property: color, outline-color;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+}
+.header__link:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -7px;
+    height: 2px;
+    background-color: var(--orange);
+    opacity: 0;
+    transform: scale(0);
+    transition-property: opacity, transform, background-color;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+}
+.header__link:focus-visible {
+  outline-color: var(--orange);
+}
+.header__link:active:not(:focus-visible) {
+    color: var(--red);
+}
+
+
+
+.header-search {
+  background-color: white;
+}
+
+.header-search path {
+  transition-property: stroke, outline;
+  transition: .3s ease-in-out;
+}
+
+
+.header-search:focus-visible {
+  outline:0;
+  outline:2px solid var(--orange);
+  outline-offset:2px;
+}
+
+
+.header-search:hover:not(:focus-visible) *{
+  stroke: var(--orange);
+}
+
+.header-search:active:not(:focus-visible) * {
+  stroke: var(--orange);
+  opacity: 0.4;
+}
+
+
+
+@media (min-width: 1200px) {
+
+  .header__link:hover:not(:focus-visible):before {
+      opacity: 1;
+      transform: scale(1);
+  }
 }

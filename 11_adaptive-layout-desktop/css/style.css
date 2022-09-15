@@ -9,7 +9,10 @@
 :root {
   --gap: 30px;  
   --orange:#FF9900;
+  --light-orange:#FFB84D;
+  --red:#E1670E;
   --light-grey: #CACACA;
+  --hard-grey: #666666;
   --light-black: #414141;
   --black: #000000;
   --back-color: #E5E5E5;

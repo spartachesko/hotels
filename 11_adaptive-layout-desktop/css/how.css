@@ -26,6 +26,26 @@
 }
 
 
+.stages button {
+  outline:0;
+  background: white;
+  color: var(--black);
+}
+
+.stages button:focus-visible{
+  outline:0;
+  outline:2px solid var(--orange);
+  color: var(--black);
+}
+
+.stages button:hover:not(:focus-visible) {
+  color: var(--orange);
+}
+
+.stages button:active:not(:focus-visible) {
+  color: var(--red);
+}
+
 
 .how article {
   display: flex;
@@ -101,10 +121,51 @@
   font-family: 'Bold', sans-serif;
 }
 
+.how article button:focus-visible:first-child{
+  outline:0;
+  outline:2px solid var(--light-orange);
+  color: white;
+  background-color: var(--light-orange);
+}
+
+.how article button:hover:not(:focus-visible):first-child {
+  color: white;
+  outline:2px solid var(--light-orange);
+  background-color: var(--light-orange);
+}
+
+.how article button:active:not(:focus-visible):first-child {
+  color: white;
+  outline:2px solid var(--red);
+  background-color: var(--red);
+}
+
+
+
 .how article button:last-child {
-  outline-color: var(--black);
+  outline:0;
+  outline:1px solid var(--black);
   padding: 19px 38px;
   background: white;
   border-radius: 16px;
   color: var(--black);
+}
+
+.how article button:last-child:focus-visible{
+  outline:0;
+  outline:2px solid var(--hard-grey);
+  color: white;
+  background-color: var(--hard-grey);
+}
+
+.how article button:last-child:hover:not(:focus-visible) {
+  color: white;
+  outline:2px solid var(--hard-grey);
+  background-color: var(--hard-grey);
+}
+
+.how article button:last-child:active:not(:focus-visible) {
+  color: white;
+  outline:2px solid var(--black);
+  background-color: var(--black);
 }
