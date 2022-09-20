@@ -25,6 +25,8 @@
 
 * {
   box-sizing: border-box;
+  border: none;
+  outline: 2px solid pink;
 }
 
 body{
@@ -70,4 +72,5 @@ img {
 button {
   border: none;
   text-align: center;
+  cursor: pointer;
 }

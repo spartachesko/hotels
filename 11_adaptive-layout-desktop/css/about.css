@@ -1,26 +1,26 @@
-.about-us{
-  padding-bottom: 50px;
+.about{
+  margin-bottom: 50px;
 }
 
-.about-us h2{
+.about h2{
   font-size: 48px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   line-height: 59px;
 }
 
-.about-us p{
-  padding-top: 10px;
-  padding-bottom: 25px;
+.about p{
+  margin-top: 10px;
+  margin-bottom: 25px;
   max-width: 1235px;
   line-height: 32px;
 }
 
-.about-cards {
-  padding-top: 25px;
+.about__cards {
+  margin-top: 25px;
   display: flex;
 }
 
-.about-first-blog {
+.about__first-blog {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -30,29 +30,28 @@
   border-radius: 32px;
   color: white;
   line-height: 32px;
-  outline: 2px solid pink;
   margin-right: var(--gap);
   width: 50%;
   max-height: 620px;
 }
 
-.about-first-blog div{
+.about__first-blog div{
   display: flex;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 32px;
 }
 
-.about-first-blog div p{
+.about__first-blog div p{
   max-width: 433px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   margin-left: 50px;
   margin-right: 80px;
   font-family: 'Bold', sans-serif;
   line-height: 32px;
 }
 
-.about-first-blog div button{
+.about__first-blog div button{
   outline:0;
   outline:3px solid var(--orange);
   border-radius: 16px;
@@ -74,13 +73,13 @@
   background-color: var(--orange);
 }
 
-.about-first-blog div button:hover:not(:focus-visible) {
+.about__first-blog div button:hover:not(:focus-visible) {
   color: white;
   outline:2px solid var(--orange);
   background-color: var(--orange);
 }
 
-.about-first-blog div button:active:not(:focus-visible) {
+.about__first-blog div button:active:not(:focus-visible) {
   color: white;
   outline:2px solid var(--red);
   background-color: var(--red);
@@ -89,13 +88,13 @@
 
 
 
-.about-second-blog {
+.about__second-blog {
   display: flex;
   flex-direction: column;
   width: 50%;
 }
 
-.about-second-blog article {
+.about__second-blog article {
   display: flex;
   outline: 3px solid var(--light-grey);
   border-radius: 32px;
@@ -105,26 +104,40 @@
   max-height: 295px;
 }
 
-.about-second-blog article:first-child {
+.about__second-blog article:first-child {
   margin-bottom: var(--gap);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.about-second-blog svg{
+.about__second-blog span{
   margin-right: 25px;
 }
 
-.about-second-blog article div{
+.about__img1{
+  background-image: url('/img/Frame16.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 190px;
+}
+
+.about__img2{
+  background-image: url('/img/Frame12.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 190px
+}
+
+
+.about__second-blog article div{
   margin-left: 25px;
 }
 
-.about-second-blog article h3{
+.about__second-blog article h3{
   font-size: 24px;
   line-height: 29px;
   font-family: 'Bold', sans-serif;
 }
 
-.about-second-blog article p{
+.about__second-blog article p{
   max-width: 450px;
   line-height: 32px;
 }

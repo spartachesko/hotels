@@ -16,7 +16,7 @@
   color: white;
   max-width: 837px;
   font-size: 70px;
-  padding-bottom: 12px;
+  margin-bottom: 12px;
   font-family: 'Extrabold', sans-serif;
   line-height: 85px
 }
@@ -25,8 +25,8 @@
   color: white;
   font-size: 24px;
   max-width: 790px;
-  padding-top: 12px;
-  padding-bottom: 45px;
+  margin-top: 12px;
+  margin-bottom: 45px;
   font-family: 'Bold', sans-serif;
   line-height: 29px;
 }

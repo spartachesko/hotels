@@ -1,8 +1,8 @@
-footer * {
+.footer * {
   color: var(--light-grey);
 }
 
-footer {
+.footer {
   margin-bottom: 50px;
   background-color: #000000;
   color: white;
@@ -11,7 +11,7 @@ footer {
 
 }
 
-footer .container {
+.footer .container {
   display: flex;
   justify-content: space-between;
   max-height: 494px;
@@ -20,7 +20,7 @@ footer .container {
 
 .footer__info ul {
   color: var(--light-grey);
-  padding-top: 10px;
+  margin-top: 10px;
   margin-bottom: 90px;
   line-height: 36px;
   font-size: 18px;
@@ -66,7 +66,7 @@ footer .container {
 }
 
 
-.footer__info span {
+.footer__info .social {
   display: flex;
   justify-content: space-between;
   max-width: 60%;
@@ -102,19 +102,19 @@ footer .container {
 
 
 
-form {
+.form {
   display: flex;
   flex-direction: column;
   max-width: 100%;
 }
 
-form h3 {
+.form h3 {
   font-size: 48px;
   line-height: 59px;
   margin-bottom: 25px;
 }
 
-form span {
+.form .social {
   display: flex;
   align-items: center;
   line-height: 32px;
@@ -124,19 +124,19 @@ input#check {
   margin-right: 4px;
 }
 
-.custom-checkbox {
+.checkbox {
   position: absolute;
   z-index: -1;
   opacity: 0;
 }
 
-.custom-checkbox+label {
+.checkbox+label {
   display: inline-flex;
   align-items: center;
   user-select: none;
 }
 
-.custom-checkbox+label::before {
+.checkbox+label::before {
   content: '';
   display: inline-block;
   width: 1em;
@@ -151,7 +151,7 @@ input#check {
   background-size: 50% 50%;
 }
 
-.custom-checkbox:checked+label::before {
+.checkbox:checked+label::before {
   border-color: var(--light-grey);
   background-color: black;
   background-image: url("/img/check.svg");
@@ -189,7 +189,7 @@ input#check {
   padding-top: 14px;
 }
 
-footer button {
+.footer button {
   outline-color: var(--orange);
   padding: 19px 38px;
   background: var(--orange);
@@ -206,14 +206,14 @@ footer button {
 }
 
 
-footer button:focus-visible,
-footer button:hover {
+.footer button:focus-visible,
+.footer button:hover {
   outline: 0;
   background-color: var(--light-orange);
 }
 
 
-footer button:active:not(:focus-visible) {
+.footer button:active:not(:focus-visible) {
   background-color: var(--red);
 }
 

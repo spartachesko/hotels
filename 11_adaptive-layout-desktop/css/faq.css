@@ -8,7 +8,7 @@
   font-size: 48px;
   margin-bottom: 32px;
   line-height: 59px;
-  padding-top: 11px;
+  margin-top: 11px;
 }
 
 .btn {
@@ -27,7 +27,7 @@
   outline: 0;
 }
 
-.btn__plus {
+.plus {
   background-color: #ECECEC;
   border-radius: 100%;
   
@@ -36,7 +36,7 @@
   vertical-align: top;
   
 }
-.btn__plus:before {
+.plus:before {
   content: "";
   position: absolute;
   top: calc((100% - 1px) / 2);
@@ -46,7 +46,7 @@
   
   background-color: #666666;
 }
-.btn__plus:after {
+.plus:after {
   content: "";
   position: absolute;
   top: calc((100% - 1px) / 2);
@@ -59,7 +59,7 @@
 }
 
 
-.item__top {
+.faq__item__top {
   border: 0;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -77,46 +77,46 @@
   margin-top: -1px;
   transition: border-color .3s ease-in-out;
 }
-.list__item:first-child .item__top {
+.faq__item:first-child .faq__item__top {
   border-top: 1px solid gray;
 }
-.item__top__question {
+.faq__item__top__question {
   margin-right: auto;
   font-size: 24px;
   transition: color .3s ease-in-out;
   font-family: 'Bold', sans-serif;
 }
-.item__bottom {
+.faq__item__bottom {
   display: none;
 }
-.item__top:focus-visible { outline: 0; }
-.item__top:hover:not(:active),
-.item__top:focus-visible:not(:active),
-.list__item:first-child .item__top:hover:not(:active),
-.list__item:first-child .item__top:focus-visible:not(:active) {
+.faq__item__top:focus-visible { outline: 0; }
+.faq__item__top:hover:not(:active),
+.faq__item__top:focus-visible:not(:active),
+.faq__item:first-child .faq__item__top:hover:not(:active),
+.faq__item:first-child .faq__item__top:focus-visible:not(:active) {
   border-color: orange;
 }
 
-.item__top:hover:not(:active) .item__top__question,
-.item__top:focus-visible:not(:active) .item__top__question {
+.faq__item__top:hover:not(:active) .faq__item__top__question,
+.faq__item__top:focus-visible:not(:active) .faq__item__top__question {
   color: orange;
 }
-.item__top:hover:not(:active) .item__top__btn,
-.item__top:focus-visible:not(:active) .item__top__btn {
+.faq__item__top:hover:not(:active) .faq__item__top__btn,
+.faq__item__top:focus-visible:not(:active) .faq__item__top__btn {
   background-color: orange;
 }
 
-.item__top__btn,
-.item__top__btn:before,
-.item__top__btn:after {
+.faq__item__top__btn,
+.faq__item__top__btn:before,
+.faq__item__top__btn:after {
   transition: background-color .3s ease-in-out, transform .3s ease-in-out;
 }
-.item__top:hover:not(:active) .item__top__btn:before,
-.item__top:hover:not(:active) .item__top__btn:after,
-.item__top:focus-visible:not(:active) .item__top__btn:before,
-.item__top:focus-visible:not(:active) .item__top__btn:after {
+.faq__item__top:hover:not(:active) .faq__item__top__btn:before,
+.faq__item__top:hover:not(:active) .faq__item__top__btn:after,
+.faq__item__top:focus-visible:not(:active) .faq__item__top__btn:before,
+.faq__item__top:focus-visible:not(:active) .faq__item__top__btn:after {
   background-color: #fff;
 }
-.item__top:active .item__top__btn {
+.faq__item__top:active .faq__item__top__btn {
   transform: rotate(45deg);
 }
