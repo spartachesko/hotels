@@ -18,6 +18,7 @@
 .about__cards {
   margin-top: 25px;
   display: flex;
+  /* flex-wrap: wrap; */
 }
 
 .about__first-blog {
@@ -32,7 +33,7 @@
   line-height: 32px;
   margin-right: var(--gap);
   width: 50%;
-  max-height: 620px;
+  min-height: 620px;
 }
 
 .about__first-blog div{
@@ -101,7 +102,8 @@
   padding-top: 65px;
   padding-bottom: 65px;
   padding-left: 60px;
-  max-height: 295px;
+  /* max-height: 295px; */
+  min-height: 295px;
 }
 
 .about__second-blog article:first-child {
