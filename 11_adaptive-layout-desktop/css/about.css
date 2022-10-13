@@ -67,7 +67,7 @@
 }
 
 
-.about-first-blog div button:focus-visible {
+.about__first-blog div button:focus-visible {
   outline:0;
   outline:2px solid var(--orange);
   color: white;

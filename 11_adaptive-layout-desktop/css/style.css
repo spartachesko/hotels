@@ -63,6 +63,9 @@ li {
 .container {
   max-width: 1775px;
   margin: 0 auto;
+  padding-left: 75px;
+  padding-right: 75px;
+  /* display: flex; */
 }
 
 img {

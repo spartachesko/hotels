@@ -14,7 +14,7 @@
 .footer .container {
   display: flex;
   justify-content: space-between;
-  max-height: 494px;
+  /* max-height: 494px; */
   position: relative;
 }
 
