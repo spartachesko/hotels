@@ -1,0 +1,241 @@
+.header {
+  position: relative;
+  margin-bottom: 50px;
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 32px 32px;
+}
+
+
+
+.header .container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  padding: 14px 0 14px 0;
+}
+
+.header__nav{
+  margin-left: 15%;
+}
+
+.header__ul {
+  display: flex;
+  font-family: 'Montserrat-Semibold', sans-serif;
+  font-size: 18px;
+}
+
+.header__li {
+  margin-right: 85px;
+}
+
+.header__li:last-child{
+  margin-right: 0;
+}
+
+.header__link {
+  position: relative;
+  outline: 2px solid transparent;
+  outline-offset: 5px;
+  
+  transition-property: color, outline-color;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+}
+.header__link:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -7px;
+    height: 2px;
+    background-color: var(--orange);
+    opacity: 0;
+    transform: scale(0);
+    transition-property: opacity, transform, background-color;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+}
+.header__link:focus-visible {
+  outline-color: var(--orange);
+}
+.header__link:active:not(:focus-visible) {
+    color: var(--red);
+}
+
+.nav__close {
+  display: none;
+}
+
+/* search */
+
+.header__search {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  max-width: 539px;
+  right: 0;
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out,
+    visibility 0.3s ease-in-out;
+  visibility: hidden;
+}
+
+
+.header__search.active {
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 539px;
+
+  
+  position: absolute;
+  display: flex;
+  right: 0;
+  opacity: 1;
+  z-index: 2;
+  visibility: visible;
+  border-radius: 24px;
+  background-color: #fff;
+  height: 60px;
+  align-items: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12);
+  transform: translateY(0%);
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out,
+    visibility 0.3s ease-in-out;
+}
+
+/* search input */
+
+.header__search__input {
+  height: 40px;
+  margin-left: var(--gap);
+  background-color: var(--white);
+  width: 100%;
+  max-width: 412px;
+  line-height: 22px;
+  color: var(--light-black);
+  font-size: 18px;
+  border-bottom: 1px solid var(--light-grey);
+
+  transition-property: background-color;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+}
+
+.header__search__input:focus-visible,
+.header__search__input:hover {
+  outline: 0;
+  background-color: var(--white);
+}
+
+
+.header__search__input:active:not(:focus-visible) {
+  background-color: var(--white);
+}
+
+
+/* search button main */
+
+.header__search__btn__main {
+  background-color: white;
+}
+
+.header__search__btn__main path {
+  transition-property: stroke, outline;
+  transition: .3s ease-in-out;
+}
+
+
+.header__search__btn__main:focus-visible {
+  outline:0;
+  outline:2px solid var(--orange);
+  outline-offset:2px;
+}
+
+
+.header__search__btn__main:hover:not(:focus-visible) *{
+  stroke: var(--orange);
+}
+
+.header__search__btn__main:active:not(:focus-visible) * {
+  stroke: var(--orange);
+  opacity: 0.4;
+}
+
+.header__search__btn__main.active {
+  visibility: hidden;
+}
+
+/* search button */
+
+.header__search__btn {
+  background-color: white;
+}
+
+.header__search__btn path {
+  transition-property: stroke, outline;
+  transition: .3s ease-in-out;
+}
+
+
+.header__search__btn:focus-visible {
+  outline:0;
+  outline:2px solid var(--orange);
+  outline-offset:2px;
+}
+
+
+.header__search__btn:hover:not(:focus-visible) *{
+  stroke: var(--orange);
+}
+
+.header__search__btn:active:not(:focus-visible) * {
+  stroke: var(--orange);
+  opacity: 0.4;
+}
+
+/* search close button */
+
+.header__search__close {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out,
+    visibility 0.3s ease-in-out;
+    background-color: var(--white);
+}
+
+.header__search__close path {
+  transition-property: stroke, outline;
+  transition: .3s ease-in-out;
+}
+
+
+.header__search__close:focus-visible {
+  outline:0;
+  outline:2px solid var(--orange);
+  outline-offset:2px;
+}
+
+
+.header__search__close:hover:not(:focus-visible) *{
+  stroke: var(--orange);
+}
+
+.header__search__close:active:not(:focus-visible) * {
+  stroke: var(--black);
+  opacity: 0.4;
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+
+  .header__link:hover:not(:focus-visible):before {
+      opacity: 1;
+      transform: scale(1);
+  }
+}

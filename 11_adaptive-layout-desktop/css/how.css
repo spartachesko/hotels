@@ -7,7 +7,7 @@
   margin: 0 auto;
 }
 
-.how h2{
+.how__h2{
   padding-bottom: 25px;
   font-size: 48px;
   line-height: 59px;
@@ -26,33 +26,33 @@
 }
 
 
-.stages button {
+.stages__button {
   outline:0;
   background: white;
   color: var(--black);
 }
 
-.stages button:focus-visible{
+.stages__button:focus-visible{
   outline:0;
   outline:2px solid var(--orange);
   color: var(--black);
 }
 
-.stages button:hover:not(:focus-visible) {
+.stages__button:hover:not(:focus-visible) {
   color: var(--orange);
 }
 
-.stages button:active:not(:focus-visible) {
+.stages__button:active:not(:focus-visible) {
   color: var(--red);
 }
 
 
-.how article {
+.how__article {
   display: flex;
   position: relative;
 }
 
-.how article:before{
+.how__article:before{
   content: "";
   position: absolute;
   width: 49%;
@@ -67,26 +67,26 @@
 }
 
 @media (max-width: 1500px) {
-  .how article * {
+  .how__article * {
     width: 100%; 
   }
-  .how article:before {
+  .how__article:before {
     width: 100%;
     min-height: 180px;
     bottom: auto;
   }
-  .how article {
+  .how__article {
     padding-top: 190px;
   }
 }
 
 
-.how article {
+.how__article {
   display: flex;
   flex-direction: column;
 }
 
-.how article h3{
+.how__h3{
   line-height: 32px;
   font-size: 24px;
   margin-bottom: 4px;
@@ -95,7 +95,7 @@
 }
 
 
-.how article p{
+.how__p{
   margin-top: 4px;
   line-height: 32px;
   margin-bottom: 9px;
@@ -104,14 +104,14 @@
   
 }
 
-.how article span{
+.how__span{
   margin-top: 9px;
   display: flex;
   line-height: 19.5px;
   max-width: 25%;
 }
 
-.how article button:first-child {
+.how__button:first-child {
   margin-right: var(--gap);
   outline-color: var(--orange);
   padding: 19px 38px;
@@ -121,20 +121,20 @@
   font-family: 'Bold', sans-serif;
 }
 
-.how article button:focus-visible:first-child{
+.how__button:focus-visible:first-child{
   outline:0;
   outline:2px solid var(--light-orange);
   color: white;
   background-color: var(--light-orange);
 }
 
-.how article button:hover:not(:focus-visible):first-child {
+.how__button:hover:not(:focus-visible):first-child {
   color: white;
   outline:2px solid var(--light-orange);
   background-color: var(--light-orange);
 }
 
-.how article button:active:not(:focus-visible):first-child {
+.how__button:active:not(:focus-visible):first-child {
   color: white;
   outline:2px solid var(--red);
   background-color: var(--red);
@@ -142,7 +142,7 @@
 
 
 
-.how article button:last-child {
+.how__button:last-child {
   outline:0;
   outline:1px solid var(--black);
   padding: 19px 38px;
@@ -151,20 +151,20 @@
   color: var(--black);
 }
 
-.how article button:last-child:focus-visible{
+.how__button:last-child:focus-visible{
   outline:0;
   outline:2px solid var(--hard-grey);
   color: white;
   background-color: var(--hard-grey);
 }
 
-.how article button:last-child:hover:not(:focus-visible) {
+.how__button:last-child:hover:not(:focus-visible) {
   color: white;
   outline:2px solid var(--hard-grey);
   background-color: var(--hard-grey);
 }
 
-.how article button:last-child:active:not(:focus-visible) {
+.how__button:last-child:active:not(:focus-visible) {
   color: white;
   outline:2px solid var(--black);
   background-color: var(--black);

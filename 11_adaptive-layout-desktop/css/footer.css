@@ -3,7 +3,6 @@
 }
 
 .footer {
-  margin-bottom: 50px;
   background-color: #000000;
   color: white;
   padding-top: 50px;
@@ -14,11 +13,10 @@
 .footer .container {
   display: flex;
   justify-content: space-between;
-  /* max-height: 494px; */
   position: relative;
 }
 
-.footer__info ul {
+.footer__info__ul {
   color: var(--light-grey);
   margin-top: 10px;
   margin-bottom: 90px;
@@ -66,7 +64,7 @@
 }
 
 
-.footer__info .social {
+.social {
   display: flex;
   justify-content: space-between;
   max-width: 60%;
@@ -108,17 +106,17 @@
   max-width: 100%;
 }
 
-.form h3 {
+.form__h3 {
   font-size: 48px;
   line-height: 59px;
   margin-bottom: 25px;
 }
 
-.form .social {
+/* .form .social {
   display: flex;
   align-items: center;
   line-height: 32px;
-}
+} */
 
 input#check {
   margin-right: 4px;
@@ -189,7 +187,7 @@ input#check {
   padding-top: 14px;
 }
 
-.footer button {
+.footer__button {
   outline-color: var(--orange);
   padding: 19px 38px;
   background: var(--orange);
@@ -206,14 +204,14 @@ input#check {
 }
 
 
-.footer button:focus-visible,
-.footer button:hover {
+.footer__button:focus-visible,
+.footer__button:hover {
   outline: 0;
   background-color: var(--light-orange);
 }
 
 
-.footer button:active:not(:focus-visible) {
+.footer__button:active:not(:focus-visible) {
   background-color: var(--red);
 }
 

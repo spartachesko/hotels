@@ -1,0 +1,179 @@
+.how {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.how .container {
+  margin: 0 auto;
+}
+
+.how__h2 {
+  padding-bottom: 25px;
+  font-size: 48px;
+  line-height: 58.51px;
+  font-family: 'Montserrat-Regular', sans-serif;
+}
+
+.stages {
+  display: flex;
+  margin-top: 27px;
+  margin-bottom: 45px;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 26%;
+  justify-content: space-between;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+
+.stages__button {
+  outline: 0;
+  background: white;
+  color: var(--black);
+}
+
+.stages__button:focus-visible {
+  outline: 0;
+  outline: 2px solid var(--orange);
+  color: var(--black);
+}
+
+.stages__button:hover:not(:focus-visible) {
+  color: var(--orange);
+}
+
+.stages__button:active:not(:focus-visible) {
+  color: var(--red);
+}
+
+.stages__button--active {
+  color: var(--orange);
+}
+
+.how__article {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.how__article__item:before {
+  content: "";
+  position: absolute;
+  width: 49%;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  border-radius: 32px;
+  background-size: cover;
+  background-position: center;
+}
+
+.how__article__item[data-target="one"]:before {
+  background-image: url('/img/how/1920/how-pic-1-1920.png');
+}
+
+.how__article__item[data-target="two"]:before {
+  background-image: url('/img/how/1920/how-pic-2-1920.png');
+}
+
+.how__article__item[data-target="three"]:before {
+  background-image: url('/img/how/1920/how-pic-3-1920.png');
+}
+
+.how__article__item[data-target="four"]:before {
+  background-image: url('/img/how/1920/how-pic-4-1920.png');
+}
+
+
+
+.how__article__item {
+  display: none;
+  /* position: relative; */
+}
+
+.how__article__item--active {
+  display: block;
+}
+
+.how__h3 {
+  line-height: 32px;
+  font-size: 24px;
+  margin-bottom: 4px;
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+
+.how__p {
+  margin-top: 4px;
+  line-height: 32px;
+  margin-bottom: 9px;
+  /* max-width: 49%; */
+  max-width: 41%;
+  font-size: 16px;
+}
+
+.how__span {
+  margin-top: 9px;
+  display: flex;
+  line-height: 19.5px;
+  max-width: 25%;
+}
+
+.how__button:first-child {
+  margin-right: var(--gap);
+  outline-color: var(--orange);
+  padding: 19px 38px;
+  background: var(--orange);
+  border-radius: 16px;
+  color: white;
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+
+.how__button:focus-visible:first-child {
+  outline: 0;
+  outline: 2px solid var(--light-orange);
+  color: white;
+  background-color: var(--light-orange);
+}
+
+.how__button:hover:not(:focus-visible):first-child {
+  color: white;
+  outline: 2px solid var(--light-orange);
+  background-color: var(--light-orange);
+}
+
+.how__button:active:not(:focus-visible):first-child {
+  color: white;
+  outline: 2px solid var(--red);
+  background-color: var(--red);
+}
+
+
+
+.how__button:last-child {
+  outline: 0;
+  outline: 1px solid var(--black);
+  padding: 19px 38px;
+  background: white;
+  border-radius: 16px;
+  color: var(--black);
+}
+
+.how__button:last-child:focus-visible {
+  outline: 0;
+  outline: 2px solid var(--hard-grey);
+  color: white;
+  background-color: var(--hard-grey);
+}
+
+.how__button:last-child:hover:not(:focus-visible) {
+  color: white;
+  outline: 2px solid var(--hard-grey);
+  background-color: var(--hard-grey);
+}
+
+.how__button:last-child:active:not(:focus-visible) {
+  color: white;
+  outline: 2px solid var(--black);
+  background-color: var(--black);
+}

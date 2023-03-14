@@ -1,0 +1,125 @@
+.faq {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.faq__h2{
+  font-size: 48px;
+  margin-bottom: 32px;
+  line-height: 59px;
+  margin-top: 11px;
+}
+
+.btn {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  
+  width: 50px;
+  height: 50px;
+  
+  cursor: pointer;
+  
+}
+
+.btn:focus-visible {
+  outline: 0;
+}
+
+.plus {
+  background-color: #ECECEC;
+  border-radius: 100%;
+  
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  
+}
+.plus:before {
+  content: "";
+  position: absolute;
+  top: calc((100% - 1px) / 2);
+  left: calc((100% - var(--width-plus)) / 2);
+  height: 1px;
+  width: var(--width-plus);
+  
+  background-color: #666666;
+}
+.plus:after {
+  content: "";
+  position: absolute;
+  top: calc((100% - 1px) / 2);
+  left: calc((100% - var(--width-plus)) / 2);
+  height: 1px;
+  width: var(--width-plus);
+  
+  background-color: #666666;
+  transform: rotate(90deg);
+}
+
+
+.faq__item__top {
+  border: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid grey;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  line-height: 32px;
+  
+  
+  position: relative;
+  margin-top: -1px;
+  transition: border-color .3s ease-in-out;
+}
+.faq__item:first-child .faq__item__top {
+  border-top: 1px solid gray;
+}
+
+.faq__item__top__question {
+  text-align: start;
+  margin-right: auto;
+  font-size: 24px;
+  transition: color .3s ease-in-out;
+  font-family: 'Bold', sans-serif;
+}
+
+.faq__item__bottom {
+  display: none;
+}
+.faq__item__top:focus-visible { outline: 0; }
+.faq__item__top:hover:not(:active),
+.faq__item__top:focus-visible:not(:active),
+.faq__item:first-child .faq__item__top:hover:not(:active),
+.faq__item:first-child .faq__item__top:focus-visible:not(:active) {
+  border-color: orange;
+}
+
+.faq__item__top:hover:not(:active) .faq__item__top__question,
+.faq__item__top:focus-visible:not(:active) .faq__item__top__question {
+  color: orange;
+}
+.faq__item__top:hover:not(:active) .faq__item__top__btn,
+.faq__item__top:focus-visible:not(:active) .faq__item__top__btn {
+  background-color: orange;
+}
+
+.faq__item__top__btn,
+.faq__item__top__btn:before,
+.faq__item__top__btn:after {
+  transition: background-color .3s ease-in-out, transform .3s ease-in-out;
+}
+.faq__item__top:hover:not(:active) .faq__item__top__btn:before,
+.faq__item__top:hover:not(:active) .faq__item__top__btn:after,
+.faq__item__top:focus-visible:not(:active) .faq__item__top__btn:before,
+.faq__item__top:focus-visible:not(:active) .faq__item__top__btn:after {
+  background-color: #fff;
+}
+.faq__item__top:active .faq__item__top__btn {
+  transform: rotate(45deg);
+}
