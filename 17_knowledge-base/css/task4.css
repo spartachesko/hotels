@@ -1,6 +1,7 @@
 .task4 {
   margin-bottom: 40px;
-};
+}
+
 
 .task4__container {
   width: 100%;
@@ -10,4 +11,4 @@
   background-color: var(--white);
   color: var(--light-black);
   display: flex
-};
+}
