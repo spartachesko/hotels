@@ -1,0 +1,9 @@
+.task3 {
+  margin-bottom: 40px;
+};
+
+
+[class*="ground-pane"] {
+  filter: grayscale(1)
+};
+

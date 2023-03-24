@@ -1,0 +1,63 @@
+@import url("task1.css");
+@import url("task2.css");
+@import url("task3.css");
+/* @import url("task44.css"); */
+@import url("task5.css");
+@import url("../fonts/stylesheet.css");
+
+:root {
+  --white: #FFFFFF;
+  --light-black: #333333;
+  --black: #000000;
+  --gray: #999999;
+  --brown: #CCB26E;
+  --orange: #FF5C00;
+}
+
+* {
+  box-sizing: border-box;
+  border: none;
+}
+
+
+body {
+  margin: 0;
+  padding: 50px;
+  background-color: #333;
+  font-family: "Arial", san-serif;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+button {
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}

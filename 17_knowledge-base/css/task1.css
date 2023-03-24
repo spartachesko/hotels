@@ -1,0 +1,107 @@
+.task1 {
+  margin-bottom: 40px;
+}
+
+.task1__checkbox {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  color: var(--light-black);
+  width: 100%;
+  max-width: 176px;
+  height: 100%;
+  max-height: 309px;
+  border-radius: 10px;
+  padding: 21px 29px 29px 30px;
+}
+
+.task1__checkbox h2 {
+  line-height: 24.51px;
+  font-size: 18px;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.check__label {
+  margin-top: 20px;
+  display: flex;
+}
+
+.checkbox {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+
+
+#tick-mark {
+  position: relative;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  transition: opacity .3s ease-in-out;
+  border: 1px solid grey;
+  transition: border-color .3s ease-in-out;
+  border-radius: 3px;
+}
+
+#tick-mark:before {
+  position: absolute;
+  left: -5px;
+  top: 50%;
+  height: 30%;
+  width: 1px;
+  background-color: var(--brown);
+  content: "";
+  transform: translateX(10px) rotate(-45deg);
+  transform-origin: left bottom;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+}
+
+#tick-mark:after {
+  position: absolute;
+  left: -5px;
+  bottom: 3px;
+  height: 1px;
+  width: 60%;
+  background-color: var(--brown);
+  content: "";
+  transform: translateX(10px) rotate(-45deg);
+  transform-origin: left bottom;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+}
+
+
+.checkbox:checked~#tick-mark:after {
+  opacity: 1;
+}
+
+.checkbox:checked~#tick-mark:before {
+  opacity: 1;
+}
+
+.checkbox:focus~#tick-mark {
+  border-color: var(--brown);
+}
+
+
+.check__text {
+  position: relative;
+  padding-left: 9px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 19.05px;
+  font-weight: 400;
+}

@@ -1,0 +1,13 @@
+.task4 {
+  margin-bottom: 40px;
+};
+
+.task4__container {
+  width: 100%;
+  max-width: 399px;
+  height: 100%;
+  max-height: 310px;
+  background-color: var(--white);
+  color: var(--light-black);
+  display: flex
+};

@@ -145,17 +145,17 @@
   }
 
   .hero-slide-1 {
-    background-image: url("/img/hero/1024/hero-pic-1024-1.png");
+    background-image: url("../img/hero/1024/hero-pic-1024-1.png");
     /* background-image: url("https://i.ibb.co/bzDnhTw/balcon-1024.png"); */
   }
 
   .hero-slide-2 {
-    background-image: url("/img/hero/1024/hero-pic-1024-2.png");
+    background-image: url("../img/hero/1024/hero-pic-1024-2.png");
     /* background-image: url("https://i.ibb.co/XXkN7CF/hero-pic-1024-2.png"); */
   }
 
   .hero-slide-3 {
-    background-image: url("/img/hero/1024/hero-pic-1024-3.png");
+    background-image: url("../img/hero/1024/hero-pic-1024-3.png");
     /* background-image: url("https://i.ibb.co/HqdMDKn/hero-pic-1024-3.png"); */
   }
 
@@ -373,17 +373,17 @@
   }
 
   .hero-slide-1 {
-    background-image: url("/img/hero/768/hero-pic-768-1.png");
+    background-image: url("../img/hero/768/hero-pic-768-1.png");
     /* background-image: url("https://i.ibb.co/xYRrqXK/balcon-768.png"); */
   }
 
   .hero-slide-2 {
-    background-image: url("/img/hero/768/hero-pic-768-2.png");
+    background-image: url("../img/hero/768/hero-pic-768-2.png");
     /* background-image: url("https://i.ibb.co/thddjkK/hero-pic-768-2.png"); */
   }
 
   .hero-slide-3 {
-    background-image: url("/img/hero/768/hero-pic-768-3.png");
+    background-image: url("../img/hero/768/hero-pic-768-3.png");
     /* background-image: url("https://i.ibb.co/8m61tkD/hero-pic-768-3.png"); */
   }
 
@@ -559,17 +559,17 @@
   }
 
   .hero-slide-1 {
-    background-image: url("/img/hero/320/hero-pic-320-1.png");
+    background-image: url("../img/hero/320/hero-pic-320-1.png");
     /* background-image: url("https://i.ibb.co/0jHR4L9/balcon-320.png"); */
   }
 
   .hero-slide-2 {
-    background-image: url("/img/hero/320/hero-pic-320-2.png");
+    background-image: url("../img/hero/320/hero-pic-320-2.png");
     /* background-image: url("https://i.ibb.co/QFcSWsg/hero-pic-320-2.png"); */
   }
 
   .hero-slide-3 {
-    background-image: url("/img/hero/320/hero-pic-320-3.png");
+    background-image: url("../img/hero/320/hero-pic-320-3.png");
     /* background-image: url("https://i.ibb.co/Njzxgry/hero-pic-320-3.png"); */
   }
 

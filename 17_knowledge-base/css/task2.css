@@ -1,0 +1,101 @@
+.task2 {
+  margin-bottom: 40px;
+  font-family: 'Open-Sans-Regular', sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.choices .choices__list.choices__list--dropdown .choices__placeholder {
+  display: none;
+}
+
+.header_choices {
+  color: var(--light-black);
+}
+
+.header_choices.choices .choices__placeholder {
+  opacity: 1;
+}
+
+.header_choices.choices[data-type*=select-one]:after {
+  width: 30px;
+  height: 30px;
+  top: 25%;
+  right: 10%;
+  transform: translateX(50%);
+  border-radius: 100%;
+  border: 0;
+  background-color: var(--white);
+  background-image: url("/17_knowledge-base/img/Rectangle141.svg");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  transition: transform .1s ease-in-out;
+  z-index: 5;
+}
+
+
+.header_choices.choices[data-type*=select-one].is-open:after {
+  transform: rotate(180deg) translate(-50%, 2px);
+  margin-top: 0;
+}
+
+.header_choices.choices[data-type*=select-one] .choices__inner {
+  padding-bottom: 9px;
+  padding-top: 11px;
+}
+
+.header_choices .choices__inner {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 176px;
+
+}
+
+.header_choices {
+  width: 100%;
+  max-width: 176px;
+}
+
+
+.header_choices .choices__list--dropdown {
+  top: 20px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  z-index: 1;
+  border-radius: 10px;
+  border: 1px solid var(--brown);
+  background-color: var(--white);
+  width: 100%;
+}
+
+.header_choices .choices__list--dropdown .choices__item {
+  position: relative;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 0;
+  font-size: 14px;
+}
+
+
+
+
+.header_choices .choices__inner {
+  position: relative;
+  z-index: 2;
+  border-radius: 10px;
+  padding-left: 15px;
+  background-color: var(--white);
+  min-height: 39px;
+}
+
+.header_choices.is-open .choices__inner {
+  border-radius: 10px;
+  border: 1px solid var(--brown);
+}
+
+/* .choices .choices__list .choices__item.is-selected {
+  display: none; 
+} */

@@ -1,0 +1,59 @@
+.task5 {
+  font-family: 'Roboto-Regular', sans-serif;
+}
+
+.js-form {
+  max-width: 440px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 38px 30px;
+  background: rgba(0, 0, 0, .4);
+  border-radius: 10px;
+}
+
+
+.form-group {
+  display: flex;
+
+  margin-bottom: 31px;
+  position: relative;
+}
+
+
+.form-group input {
+  padding: 24px 20px;
+  flex: 1;
+  border-radius: 10px;
+  color: var(--black);
+
+}
+
+.js-validate-error-label {
+  order: -1;
+  position: absolute;
+  transform: translateY(-120%);
+  left: 20px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.form-group input::placeholder {
+  color: var(--gray);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.form-group__btn {
+  background-color: var(--orange);
+  padding: 18.5px 53px;
+  border-radius: 10px;
+  color: var(--white);
+  font-weight: 400;
+  align-self: flex-start;
+  cursor: pointer;
+  line-height: 23px;
+  font-size: 20px;
+}
