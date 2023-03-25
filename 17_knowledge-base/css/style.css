@@ -3,13 +3,16 @@
 @import url("task3.css");
 @import url("task4.css");
 @import url("task5.css");
-@import url("../fonts/stylesheet.css");
+@import url("task6.css");
+@import url("/17_knowledge-base/fonts/stylesheet.css");
 
 :root {
   --white: #FFFFFF;
   --light-black: #333333;
   --black: #000000;
   --gray: #999999;
+  --hard-gray: #666666;
+  --light-gray: #BCBCBC;
   --brown: #CCB26E;
   --orange: #FF5C00;
 }

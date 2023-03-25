@@ -1,5 +1,8 @@
 .task4 {
   margin-bottom: 40px;
+  font-family: 'Open-Sans-Regular', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 
@@ -10,5 +13,17 @@
   max-height: 310px;
   background-color: var(--white);
   color: var(--light-black);
-  display: flex
+  display: flex;
+  padding: 20px 30px;
+}
+
+.simplebar-scrollbar::before {
+  background-color: var(--brown);
+  width: 6px;
+  height: 70px;
+}
+
+.simplebar-scrollbar.simplebar-visible:before {
+  opacity: 1;
+
 }

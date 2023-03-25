@@ -1,0 +1,77 @@
+.task6 {
+  margin-bottom: 40px;
+  font-family: 'Open-Sans-Regular', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.task6__container {
+  width: 100%;
+  max-width: 375px;
+  height: 100%;
+  max-height: 160px;
+  background-color: var(--white);
+  padding: 20px 78px 20px 30px;
+}
+
+.tooltip-container {
+  position: relative;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.tooltip {
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background-color: var(--light-gray);
+  color: var(--white);
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+}
+
+.tooltip-container:hover .tooltip {
+  background-color: var(--brown);
+}
+
+
+
+.tooltip-2:before {
+  content: "Глава 2, страница 176";
+  position: absolute;
+
+  transform: translate(calc(-100%/2 + 10px), calc(-100% - 10px));
+  max-width: max-content;
+  width: 100vh;
+  background-color: var(--hard-gray);
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+
+  padding: 7px 15px;
+  box-sizing: border-box;
+  display: none;
+  word-wrap: break-word;
+}
+
+.tooltip-2:after {
+  content: "";
+  position: absolute;
+  top: -60%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 10px solid transparent;
+  border-top: 10px solid var(--hard-gray);
+  display: none;
+}
+
+.tooltip-2:hover:before,
+.tooltip-2:hover:after {
+  display: inline-block;
+}

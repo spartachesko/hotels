@@ -1,5 +1,7 @@
 .task1 {
   margin-bottom: 40px;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 .task1__checkbox {
@@ -16,8 +18,9 @@
 }
 
 .task1__checkbox h2 {
-  line-height: 24.51px;
+  font-weight: 600;
   font-size: 18px;
+  line-height: 25px;
 }
 
 .checkbox-container {
@@ -101,7 +104,7 @@
   position: relative;
   padding-left: 9px;
   cursor: pointer;
-  font-size: 14px;
-  line-height: 19.05px;
   font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
 }
