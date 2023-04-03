@@ -1,0 +1,145 @@
+.courses {
+  margin-bottom: 50px;
+}
+
+.courses__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.courses__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.courses__content{
+  margin-bottom: var(--gap);
+  /* height: 100%; */
+  min-height: 480px;
+}
+
+.courses__list__item {
+  border-radius: 20px;
+  background-color: var(--light-gray);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 540px;
+  position: relative;
+  margin-right: 25px;
+  height: 100%;
+  min-height: 480px;
+  justify-content: space-between;
+}
+
+.courses__list__item:nth-child(2n) {
+  margin-right: 0;
+}
+
+
+
+.courses__h2 {
+  font-family: 'Roboto-Bold', san-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  margin-bottom: 25px;
+
+}
+
+
+.courses__img1 {
+  background-image: url('../img/courses__1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 180px;
+  background-position: center;
+  border-radius: 20px 20px 0 0;
+}
+
+.courses__img2 {
+  background-image: url('../img/courses__2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 180px;
+  background-position: center;
+  border-radius: 20px 20px 0 0;
+}
+
+.courses__img3 {
+  background-image: url('../img/courses__3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 180px;
+  background-position: center;
+  border-radius: 20px 20px 0 0;
+}
+
+.courses__img4 {
+  background-image: url('../img/courses__4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 180px;
+  background-position: center;
+  border-radius: 20px 20px 0 0;
+
+}
+
+.courses__list__item__info {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  height: 100%;
+  /* align-self: flex-start; */
+}
+
+.courses__list__item__name {
+  margin-bottom: 7px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+
+.courses__list__item__descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--hard-gray);
+}
+
+.courses__list__item__btn {
+  max-width: fit-content;
+  margin-bottom: var(--gap);
+  margin-left: var(--gap);
+  justify-content: flex-end;
+}
+
+.courses__list__item__duration__img {
+  background-image: url('../img/mdi_access_time.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  margin-right: 5px;
+}
+
+.courses__list__item__duration {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 4px;
+  top: 10px;
+}
+
+.courses__list__item__duration__descr {
+  color: var(--white);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}

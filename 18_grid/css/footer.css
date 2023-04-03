@@ -1,0 +1,36 @@
+.footer__top {
+  background-color: var(--black);
+}
+
+.footer__container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__social {
+  background-color: var(--black);
+  display: flex;
+  padding-top: var(--gap);
+  padding-bottom: var(--gap);
+  justify-content: center;
+}
+
+.footer__social__links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 186px;
+}
+
+.footer__social__links__item:not(:last-child) {
+  margin-right: var(--gap);
+}
+
+.footer__logo {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
