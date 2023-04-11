@@ -15,9 +15,17 @@ https://www.figma.com/file/CenZfHpdCgzxLpCqaGLk3x/Cld-(Copy)?node-id=406480-4006
 
 link: http://evklid-skillbox.tw1.ru/
 
+16_cross-browser - 
+project layout:
+https://www.figma.com/file/CenZfHpdCgzxLpCqaGLk3x/Cld-(Copy)?node-id=406480-4006&t=OmsvKSF1c7JdFP5i-0
+
+17_knowledge-base - 
+project layout:
+https://www.figma.com/file/g8cdkbZHU6N1AKBrth84XY/База-знаний---домашнее-задание-(Copy)?t=OmsvKSF1c7JdFP5i-0
 
 18_grid:
 site layout: 
 https://www.figma.com/file/KUPIv2xXE496kAqzwf0o8l/Сетки_ДЗ-(Copy)?node-id=0-1&t=FOGqSXFrhxJq8ZXw-0
 
 link: http://18grid.tw1.ru/
+
